@@ -1,0 +1,35 @@
+---
+title: "Nucleotide periodicity assessment of gene transcription and translation under stress in *H. sapiens* and *E. coli*"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
+
+```{r}
+# Reads in D.E. Andreev data, and filters for the 10% FDR threshold for riboseq
+# being True
+library(readr)
+df <- read_csv("./data/hsapiens/riboseq_mRNA_deandreev.csv")
+df_tsl_resp <- filter(df, `exceeds 10% FDR threshold` == "True")
+
+# Filters to just deal with ribo-seq based data
+df_tsl_resp <- df_tsl_resp[,1:4]
+glimpse(df_tsl_resp)
+
+df_tsl_resp$`Gene symbol` <- toupper(df_tsl_resp$`Gene symbol`)
+
+write_csv(select(df_tsl_resp, `Gene symbol`) ,"./data/hsapiens/andreev_genes.csv")
+```
+
+```{r}
+df_ensembl_hits <- read_csv("./data/hsapiens/runs/hits.csv")
+library(ggplot2)
+
+ggplot(df_ensembl_hits, aes(x=df_ensembl_hits)) + geom_histogram(bins = 30, color="black", fill="blue") +
+  labs(title="Number of  gene repetitions in Ensembl CDS data, for genes in D.E. Andreev filtered set",
+         subtitle="Exceeds FDR 10% threshold for ribo-seq",
+         x = "Number of repetitions",
+         y = "Number of genes")
+```
