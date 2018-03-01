@@ -54,8 +54,6 @@ def read_fasta_and_filter(fasta_file, gene_file):
                 if start == "ATG" and (end in ["TAA","TAG","TGA"]):
                     total_sequence_aggregator += sequence
 
-                print("Head: {}\nTail: {}".format(sequence[:3], sequence[-3:]))
-
                 # We read in the new header
                 header = line[1:]
                 # Parsing the gene_symbol using RegEx
