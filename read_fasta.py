@@ -33,6 +33,10 @@ def read_fasta_and_filter(fasta_file, gene_file):
                     # We write the unwritten pair, if it should be written
                     fasta_df.append([header, sequence, gene_symbol])
                     hit_counter += 1
+                    gene_symbol_counter[gene_symbol] += 1
+
+                if sequence[:3] is "ATG" and sequence[-3:] in ["TAA","TAG","TGA"]:
+                    total_sequence_aggregator += sequence
                 # Then we exit the loop
                 break
 
@@ -44,6 +48,14 @@ def read_fasta_and_filter(fasta_file, gene_file):
                     hit_counter += 1
                     gene_symbol_counter[gene_symbol] += 1
 
+                # Aggregates all valid genes to total_sequence_aggregator
+                start = sequence[:3]
+                end   = sequence[-3:]
+                if start == "ATG" and (end in ["TAA","TAG","TGA"]):
+                    total_sequence_aggregator += sequence
+
+                print("Head: {}\nTail: {}".format(sequence[:3], sequence[-3:]))
+
                 # We read in the new header
                 header = line[1:]
                 # Parsing the gene_symbol using RegEx
@@ -53,7 +65,6 @@ def read_fasta_and_filter(fasta_file, gene_file):
             # Adding to sequence
             else:
                 sequence += re.sub("\s", "", line)
-                total_sequence_aggregator += re.sub("\s", "", line)
 
         # Printing out metadata for run to stdout
         print("Number of hits is {}".format(hit_counter))
@@ -94,8 +105,8 @@ def calculate_nucleotide_freqs(total_seq):
         if letter not in count_dict:
             count_dict[letter] = 0
         count_dict[letter] += 1
-
-    del count_dict["N"]
+    if "N" in count_dict:
+        del count_dict["N"]
 
     total = count_dict["A"] + count_dict["T"] + count_dict["C"] + count_dict["G"]
     freq_dict = {k: v / float(total) for k, v in count_dict.items()}
