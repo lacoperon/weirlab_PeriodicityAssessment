@@ -1,41 +1,94 @@
 ---
-title: "Nucleotide periodicity assessment of gene transcription and translation under stress in *H. sapiens* and *E. coli*"
-output: html_notebook
+title: Nucleotide periodicity assessment of gene transcription and translation under
+  stress in *H. sapiens* and *E. coli*
+output:
+  html_document:
+    df_print: paged
 ---
 
-This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+## Reading in D.E. Andreev Data
+First, we read in the D.E. Andreev supplemental data, and filter out all 
+of the genes in which tsl is significantly affected by stress.
 
-Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
+Then, we partition that dataset into two; genes that have tsl downregulated by
+stress, and genes that have tsl upregulated by stress.
 
-```{r}
+Finally, we write the names of the upregulated and downregulated genes into
+separate files, to be parsed by `read_fasta.py` in conjunction with the 
+Ensembl CDS dataset.
+
+```{r, message=F}
 # Reads in D.E. Andreev data, and filters for the 10% FDR threshold for riboseq
 # being True
 library(readr)
+library(dplyr)
+library(ggplot2)
+
 df <- read_csv("./data/hsapiens/riboseq_mRNA_deandreev.csv")
 df_tsl_resp <- filter(df, `exceeds 10% FDR threshold` == "True")
+df_tsl_resp$`Gene symbol` <- toupper(df_tsl_resp$`Gene symbol`)
+df_tsl_resp_up <- filter(df_tsl_resp, `average ribo-seq Z-score` > 0)
+df_tsl_resp_down <- filter(df_tsl_resp, `average ribo-seq Z-score` < 0)
+
+df_tsl_resp_control <- filter(df, `exceeds 10% FDR threshold` == "False")
+df_tsl_resp_control$`Gene symbol` <- toupper(df_tsl_resp_control$`Gene symbol`)
+
+
+qplot(df_tsl_resp$`average ribo-seq Z-score`)
+qplot(df_tsl_resp_control$`average ribo-seq Z-score`)
 
 # Filters to just deal with ribo-seq based data
 df_tsl_resp <- df_tsl_resp[,1:4]
 glimpse(df_tsl_resp)
 
-df_tsl_resp$`Gene symbol` <- toupper(df_tsl_resp$`Gene symbol`)
-
-write_csv(select(df_tsl_resp, `Gene symbol`) ,"./data/hsapiens/andreev_genes.csv")
+# Writes resulting filtered datasets to csv 
+write_csv(select(df_tsl_resp_up, `Gene symbol`) ,"./data/hsapiens/andreev_genes_up.csv")
+write_csv(select(df_tsl_resp_down, `Gene symbol`) ,"./data/hsapiens/andreev_genes_down.csv")
+write_csv(select(df_tsl_resp_control, `Gene symbol`) ,"./data/hsapiens/andreev_genes_control.csv")
 ```
 
-```{r}
-df_ensembl_hits <- read_csv("./data/hsapiens/runs/hits.csv")
-library(ggplot2)
 
-ggplot(df_ensembl_hits, aes(x=df_ensembl_hits)) + geom_histogram(bins = 30, color="black", fill="blue") +
-  labs(title="Number of  gene repetitions in Ensembl CDS data, for genes in D.E. Andreev filtered set",
-         subtitle="Exceeds FDR 10% threshold for ribo-seq",
+## Plotting the number of gene repetitions in Ensembl CDS Data
+
+As you can see, the number of repetitions doesn't seem much affected by the
+up/downregulation.
+
+```{r, message=F}
+df_ensembl_hits_up <- read_csv("./data/hsapiens/runs/hits_up.csv")
+df_ensembl_hits_down <- read_csv("./data/hsapiens/runs/hits_down.csv")
+df_ensembl_hits_control <- read_csv("./data/hsapiens/runs/hits_control.csv")
+
+ggplot(df_ensembl_hits_up, aes(x=df_ensembl_hits_up)) + geom_histogram(bins = 30, color="black", fill="blue") +
+  labs(title="Number of  gene repetitions in Ensembl CDS data",
+         subtitle="Exceeds FDR 10% threshold for ribo-seq (upregulated)",
+         x = "Number of repetitions",
+         y = "Number of genes")
+
+ggplot(df_ensembl_hits_down, aes(x=df_ensembl_hits_down)) + geom_histogram(bins = 30, color="black", fill="red") +
+  labs(title="Number of  gene repetitions in Ensembl CDS data",
+         subtitle="Exceeds FDR 10% threshold for ribo-seq (downregulated)",
+         x = "Number of repetitions",
+         y = "Number of genes")
+
+ggplot(df_ensembl_hits_control, aes(x=df_ensembl_hits_control)) + geom_histogram(bins = 30, color="black", fill="green") +
+  labs(title="Number of  gene repetitions in Ensembl CDS data",
+         subtitle="Does not exceed FDR 10% threshold for ribo-seq",
          x = "Number of repetitions",
          y = "Number of genes")
 ```
 
-```{r}
-library(dplyr)
+## Further filtering the FASTA candidate genes
+
+Recall that `read_fasta.py` filters genes out from the entire Ensembl human
+CDS library, and produced two csv files, for both the upregulated and downregulated
+D.E. Andreev genes.
+
+Here, we further filter those candidate records, ensuring that the coding
+sequences associated with the genes start with ATG, end with a valid stop codon,
+and have a length greater than 35. Then, we produce two datasets with one randomly 
+selected copy for each candidate gene a given set, based on this filtering.
+
+```{r, message=F}
 
 # Helper function for taking the right substring in R (why isn't this built in...)
 substrRight <- function(x, n){
@@ -43,49 +96,232 @@ substrRight <- function(x, n){
 }
 
 # Reads in the dataset generated by read_fasta.py
-andreev_fasta_df <- read_csv("./data/hsapiens/Homo_sapiens.cds.andreev.fa", col_names=F)
+andreev_fasta_df_up <- read_csv("./data/hsapiens/fasta_andreev_genes_up.csv", col_names=F)
+andreev_fasta_df_down <- read_csv("./data/hsapiens/fasta_andreev_genes_down.csv", col_names=F)
+andreev_fasta_df_control <- read_csv("./data/hsapiens/fasta_andreev_genes_control.csv", col_names=F)
 
-set.seed(1)
-andreev_df <- andreev_fasta_df %>%
-  # Ensures that the sequence starts with ATG and ends with a valid stop codon
-  filter(substr(X2, 1, 3) == "ATG") %>%
-  filter(substrRight(X2, 3) %in% c("TAG", "TAA", "TGA")) %>%
-  # Randomly samples one member of each represented gene
-  group_by(X3) %>%
-  sample_n(size = 1)
-colnames(andreev_df) <- c("FASTAHeader", "Sequence", "geneSymbol")
-
-# Helper function for counting number of occurrences of character in string
-strcount <- function(x, pattern, split=""){
-unlist(lapply(
-    strsplit(x, split),
-       function(z) na.omit(length(grep(pattern, z)))
-   ))
+filterGenes <- function(andreev_fasta_df) {
+  set.seed(1)
+  andreev_df <- andreev_fasta_df %>%
+    # Ensures that the sequence starts with ATG and ends with a valid stop codon
+    filter(substr(X2, 1, 3) == "ATG") %>%
+    filter(substrRight(X2, 3) %in% c("TAG", "TAA", "TGA")) %>%
+    filter(nchar(X2) > 35) %>%
+    # Randomly samples one member of each represented gene
+    group_by(X3) %>%
+    sample_n(size = 1) %>%
+    mutate(frame=substr(X2, 1, 35))
+  colnames(andreev_df) <- c("FASTAHeader", "Sequence", "geneSymbol", "Frame")
+  
+  return(andreev_df)
 }
+
+andreev_df_up <- filterGenes(andreev_fasta_df_up)
+andreev_df_down <- filterGenes(andreev_fasta_df_down)
+andreev_df_control <- filterGenes(andreev_fasta_df_control)
+```
+
+## Writing the fasta files
+
+Here, we write the FASTA files associated with the upregulated and downregulated 
+D.E. Andreev genes, ready for use with the IGS Information Theoretic Alignment
+Analysis Tool.
+
+Recall that, based on the runs in `read_fasta.py`, the nucleotide frequency in
+humans is 
+
+```{unix}
+dict_items([('A', 0.25961334304060124), ('T', 0.21846022530138462), ('G', 0.2627307219587737), ('C', 0.25919570969924044)])
 ```
 
 ```{r}
-andreev_df <- andreev_df %>%
-  mutate(num_char = nchar(Sequence),
-         countA = strcount(Sequence, "A"),
-         countC = strcount(Sequence, "C"),
-         countT = strcount(Sequence, "T"),
-         countG = strcount(Sequence, "G"))
+andreev_df_up$FASTAHeader <- trimws(paste(">", andreev_df_up$FASTAHeader, sep=""))
+andreev_df_down$FASTAHeader <- trimws(paste(">", andreev_df_down$FASTAHeader, sep=""))
+andreev_df_control$FASTAHeader <- trimws(paste(">", andreev_df_control$FASTAHeader, sep=""))
 
-freq_A = sum(andreev_df$countA) / sum(andreev_df$num_char)
-freq_T = sum(andreev_df$countT) / sum(andreev_df$num_char)
-freq_C = sum(andreev_df$countC) / sum(andreev_df$num_char)
-freq_G = sum(andreev_df$countG) / sum(andreev_df$num_char)
+randomRows = function(df,n){
+   return(df[sample(nrow(df),n),])
+}
 
-ntides = c("A","T","C","G")
-frequencies = c(freq_A, freq_C, freq_T, freq_G)
-freq_df <- data.frame(ntides, frequencies)
+andreev_df_control <- randomRows(andreev_df_control, 5000)
 
-library(ggplot2)
 
-ggplot(freq_df, aes(x=ntides, y=frequencies, fill=ntides)) + geom_bar(stat = "identity")
+fasta_lines_up = c(rbind(andreev_df_up$FASTAHeader, andreev_df_up$Frame))
+fasta_lines_down = c(rbind(andreev_df_down$FASTAHeader, andreev_df_down$Frame))
+fasta_lines_control = c(rbind(andreev_df_control$FASTAHeader, andreev_df_control$Frame))
+
+write_lines(fasta_lines_up, path="./data/hsapiens/andreev_genes_up_onecopypergene.fa")
+write_lines(fasta_lines_down, path="./data/hsapiens/andreev_genes_down_onecopypergene.fa")
+write_lines(fasta_lines_control, path="./data/hsapiens/andreev_genes_control_onecopypergene.fa")
 ```
 
-```{r}
+## Reading in Results of Information Theory Analysis
+
+```{r, message=F}
+infotheory_up <- read_csv("./data/hsapiens/InfoTheory_andreev_up_onecopypergene.csv") %>%
+  filter(pos > 3)
+infotheory_down <- read_csv("./data/hsapiens/InfoTheory_andreev_down_onecopypergene.csv") %>%
+  filter(pos > 3)
+infotheory_control <- read_csv("./data/hsapiens/InfoTheory_andreev_control_onecopypergene.csv") %>%
+  filter(pos > 3)
+
+library(tidyr)
+library(plyr)
+
+graph_data_up <- infotheory_up %>%
+  select(pos, relWeightA, relWeightT, relWeightG, relWeightC) %>%
+  gather(nucleotide, relativeWeight, -pos)
+graph_data_up$nucleotide <- mapvalues(graph_data_up$nucleotide,
+          from=c("relWeightA","relWeightC","relWeightT", "relWeightG"), 
+          to=c("A","C","T","G"))
+
+graph_data_down <- infotheory_down %>%
+  select(pos, relWeightA, relWeightT, relWeightG, relWeightC) %>%
+  gather(nucleotide, relativeWeight, -pos)
+graph_data_down$nucleotide <- mapvalues(graph_data_down$nucleotide,
+          from=c("relWeightA","relWeightC","relWeightT", "relWeightG"), 
+          to=c("A","C","T","G"))
+
+graph_data_control <- infotheory_control %>%
+  select(pos, relWeightA, relWeightT, relWeightG, relWeightC) %>%
+  gather(nucleotide, relativeWeight, -pos)
+graph_data_control$nucleotide <- mapvalues(graph_data_control$nucleotide,
+          from=c("relWeightA","relWeightC","relWeightT", "relWeightG"), 
+          to=c("A","C","T","G"))
+
+
+
+ggplot(graph_data_up, aes(pos)) +
+  geom_line(aes(y=relativeWeight, color=nucleotide)) +
+  scale_x_continuous(breaks = seq(5, 35, 3))  + labs(
+    x= "Position in CDS",
+    y= "Relative Weight (by InfoTheory)",
+    title="Nucleotide Frequencies along ORF",
+    subtitle="D.E. Andreev filtered genes (upregulated)"
+  )
+
+ggplot(graph_data_down, aes(pos)) +
+  geom_line(aes(y=relativeWeight, color=nucleotide)) +
+  scale_x_continuous(breaks = seq(5, 35, 3))  + labs(
+    x= "Position in CDS",
+    y= "Relative Weight (by InfoTheory)",
+    title="Nucleotide Frequencies along ORF",
+    subtitle="D.E. Andreev filtered genes (downregulated)"
+  )
+
+ggplot(graph_data_control, aes(pos)) +
+  geom_line(aes(y=relativeWeight, color=nucleotide)) +
+  scale_x_continuous(breaks = seq(5, 35, 3))  + labs(
+    x= "Position in CDS",
+    y= "Relative Weight (by InfoTheory)",
+    title="Nucleotide Frequencies along ORF",
+    subtitle="D.E. Andreev filtered genes (control)"
+  )
+
+graph_data_combined_up <- graph_data_up %>%
+  filter(nucleotide =="G") %>%
+  mutate(label="up")
+
+graph_data_combined_down <- graph_data_down %>%
+  filter(nucleotide =="G") %>%
+  mutate(label="down")
+
+graph_data_combined_control <- graph_data_control %>%
+  filter(nucleotide =="G") %>%
+  mutate(label="control")
+
+graph_data_combined <- rbind(graph_data_combined_up, 
+                             graph_data_combined_down,
+                             graph_data_combined_control)
+
+ggplot(graph_data_combined, aes(x=pos, y=relativeWeight, color=label)) +
+         geom_line() + scale_x_continuous(breaks = seq(5, 35, 3)) + labs(
+    x= "Position in CDS",
+    y= "Relative Weight (by InfoTheory)",
+    title="G Frequency along ORF",
+    subtitle="D.E. Andreev filtered genes (up + down regulated and control)"
+  )
+  
+
+graph_data_combined_up <- graph_data_up %>%
+  filter(nucleotide =="C") %>%
+  mutate(label="up")
+
+graph_data_combined_down <- graph_data_down %>%
+  filter(nucleotide =="C") %>%
+  mutate(label="down")
+
+graph_data_combined_control <- graph_data_control %>%
+  filter(nucleotide =="C") %>%
+  mutate(label="control")
+
+graph_data_combined <- rbind(graph_data_combined_up, 
+                             graph_data_combined_down,
+                             graph_data_combined_control)
+
+ggplot(graph_data_combined, aes(x=pos, y=relativeWeight, color=label)) +
+         geom_line() + scale_x_continuous(breaks = seq(5, 35, 3)) + labs(
+    x= "Position in CDS",
+    y= "Relative Weight (by InfoTheory)",
+    title="C Frequency along ORF",
+    subtitle="D.E. Andreev filtered genes (up + down regulated)"
+  )
+
+graph_data_combined_up <- graph_data_up %>%
+  filter(nucleotide =="T") %>%
+  mutate(label="up")
+
+graph_data_combined_down <- graph_data_down %>%
+  filter(nucleotide =="T") %>%
+  mutate(label="down")
+
+graph_data_combined_control <- graph_data_control %>%
+  filter(nucleotide =="T") %>%
+  mutate(label="control")
+
+graph_data_combined <- rbind(graph_data_combined_up, 
+                             graph_data_combined_down,
+                             graph_data_combined_control)
+
+ggplot(graph_data_combined, aes(x=pos, y=relativeWeight, color=label)) +
+         geom_line() + scale_x_continuous(breaks = seq(5, 35, 3)) + labs(
+    x= "Position in CDS",
+    y= "Relative Weight (by InfoTheory)",
+    title="T Frequency along ORF",
+    subtitle="D.E. Andreev filtered genes (up + down regulated)"
+  )
+  
+
+graph_data_combined_up <- graph_data_up %>%
+  filter(nucleotide =="A") %>%
+  mutate(label="up")
+
+graph_data_combined_down <- graph_data_down %>%
+  filter(nucleotide =="A") %>%
+  mutate(label="down")
+
+graph_data_combined_control <- graph_data_control %>%
+  filter(nucleotide =="A") %>%
+  mutate(label="control")
+
+graph_data_combined <- rbind(graph_data_combined_up, 
+                             graph_data_combined_down,
+                             graph_data_combined_control)
+
+ggplot(graph_data_combined, aes(x=pos, y=relativeWeight, color=label)) +
+         geom_line() + scale_x_continuous(breaks = seq(5, 35, 3)) + labs(
+    x= "Position in CDS",
+    y= "Relative Weight (by InfoTheory)",
+    title="A Frequency along ORF",
+    subtitle="D.E. Andreev filtered genes (up + down regulated)"
+  )
 
 ```
+
+Future Controls:
+
+Repeat multiple times, get feel for how many genes have different substr(1,35)
+
+`dev_ingolia`, grab ingolia upregulated + downregulated under stress from SQL DB,
+then rerun this analysis on this. Also *E. coli*.
+

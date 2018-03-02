@@ -1,7 +1,7 @@
 import re
 import csv
 
-def read_fasta_and_filter(fasta_file, gene_file):
+def read_fasta_and_filter(fasta_file, gene_file, mode="up"):
     with open(fasta_file) as f:
         # Opens the gene_file, corresponding to all genes that have widespread
         # alterations in mRNA translation within 60 minutes
@@ -69,7 +69,7 @@ def read_fasta_and_filter(fasta_file, gene_file):
         print("Average is {}".format(sum(gene_symbol_counter.values())/len(gene_symbol_counter.values())))
         print("Max is {}".format(max(gene_symbol_counter.values())))
         print("Min is {}".format(min(gene_symbol_counter.values())))
-        with open("./data/hsapiens/runs/hits.csv", "w") as outfile:
+        with open("./data/hsapiens/runs/hits_{}.csv".format(mode), "w") as outfile:
            writer = csv.writer(outfile)
            writer.writerow(["num_hits"])
            writer.writerows(map(lambda x : [str(x)], gene_symbol_counter.values()))
@@ -90,8 +90,8 @@ def read_gene_file(gene_file):
 
         return gene_names
 
-def write_fasta_file(fasta_df):
-    with open("./data/hsapiens/Homo_sapiens.cds.andreev.fa", "w") as outfile:
+def write_fasta_file(fasta_df, filename):
+    with open("./data/hsapiens/{}".format(filename), "w") as outfile:
         writer = csv.writer(outfile)
         for fasta in fasta_df:
             writer.writerow(fasta)
@@ -110,11 +110,30 @@ def calculate_nucleotide_freqs(total_seq):
     freq_dict = {k: v / float(total) for k, v in count_dict.items()}
     print(freq_dict.items())
 
-fasta_file = "./data/hsapiens/Homo_sapiens.GRCh38.cds.all.fa"
-gene_file  = "./data/hsapiens/andreev_genes.csv"
-print(" --- Reading FASTA and filtering only for D.E. Andreev genes ---")
-[fasta_df, total_seq] = read_fasta_and_filter(fasta_file, gene_file)
-print(" --- Writing csv with FASTA values for those filtered genes  --- ")
-write_fasta_file(fasta_df)
-print(" --- Calculating background nucleotide frequencies for all genes ---")
-calculate_nucleotide_freqs(total_seq)
+if __name__ == "__main__":
+
+    print(">>>>>> For Upregulated tsl of Genes")
+    fasta_file = "./data/hsapiens/Homo_sapiens.GRCh38.cds.all.fa"
+    gene_file  = "./data/hsapiens/andreev_genes_up.csv"
+    print(" --- Reading FASTA and filtering only for D.E. Andreev genes ---")
+    [fasta_df, total_seq] = read_fasta_and_filter(fasta_file, gene_file, "up")
+    print(" --- Writing csv with FASTA values for those filtered genes  --- ")
+    write_fasta_file(fasta_df, "fasta_andreev_genes_up.csv")
+    print(" --- Calculating background nucleotide frequencies for all genes ---")
+    calculate_nucleotide_freqs(total_seq)
+
+    print(">>>>>> For Downregulated tsl of Genes")
+    fasta_file = "./data/hsapiens/Homo_sapiens.GRCh38.cds.all.fa"
+    gene_file  = "./data/hsapiens/andreev_genes_down.csv"
+    print(" --- Reading FASTA and filtering only for D.E. Andreev genes ---")
+    [fasta_df, total_seq] = read_fasta_and_filter(fasta_file, gene_file, "down")
+    print(" --- Writing csv with FASTA values for those filtered genes  --- ")
+    write_fasta_file(fasta_df, "fasta_andreev_genes_down.csv")
+
+    print(">>>>>> For Control tsl of Genes")
+    fasta_file = "./data/hsapiens/Homo_sapiens.GRCh38.cds.all.fa"
+    gene_file  = "./data/hsapiens/andreev_genes_control.csv"
+    print(" --- Reading FASTA and filtering only for D.E. Andreev genes ---")
+    [fasta_df, total_seq] = read_fasta_and_filter(fasta_file, gene_file, "control")
+    print(" --- Writing csv with FASTA values for those filtered genes  --- ")
+    write_fasta_file(fasta_df, "fasta_andreev_genes_control.csv")
