@@ -142,7 +142,7 @@ humans is
 dict_items([('A', 0.25961334304060124), ('T', 0.21846022530138462), ('G', 0.2627307219587737), ('C', 0.25919570969924044)])
 ```
 
-```{r}
+```{r, message=F}
 
 for (i in 1:5) {
   andreev_df_up[[i]]$FASTAHeader <- trimws(paste(">", andreev_df_up[[i]]$FASTAHeader, sep=""))
@@ -175,7 +175,7 @@ for (i in 1:5) {
 
 ## Reading in Results of Information Theory Analysis
 
-```{r, message=F}
+```{r, message=F, warning=F}
 
 infotheory_up <- c()
 infotheory_down <- c()
@@ -197,7 +197,7 @@ for (i in 1:5) {
     filter(pos > 3)
 }
 
-plotInfoTheoryResults <- function(infotheory_up, infotheory_down, infotheory_control, i=-1L) {
+plotInfoTheoryResults <- function(infotheory_up, infotheory_down, infotheory_control, i) {
   library(tidyr)
   library(plyr)
   
@@ -325,8 +325,21 @@ plotInfoTheoryResults <- function(infotheory_up, infotheory_down, infotheory_con
   return(list(a,t,c,g))
 }
 
-res <- plotInfoTheoryResults(infotheory_up, infotheory_down, infotheory_control)
-print(res[1])
+res <- list()
+for (i in 1:5) {
+  res[i] <- list(plotInfoTheoryResults(infotheory_up[[i]], infotheory_down[[i]], infotheory_control[[i]], i))
+}
+
+library(gridExtra)
+nts <- c("A","T","C","G")
+for (j in 1:4) {
+  grid.arrange(res[[1]][[j]] + labs(x="", y="", title="", subtitle="") + theme(legend.position="none"),
+               res[[2]][[j]] + labs(x="", y="", title="", subtitle="") + theme(legend.position="none"), 
+               res[[3]][[j]] + labs(x="", y="", title="", subtitle="") + theme(legend.position="none"), 
+               res[[4]][[j]] + labs(x="", y="", title="", subtitle="") + theme(legend.position="none"), 
+               res[[5]][[j]] + labs(x="", y="", title="", subtitle="") + theme(legend.position="none"), 
+               ncol=2, nrow=3, top=paste("Periodicity of",nts[j],"in D.E. Andreev genes, 5 random sample runs"))
+}
 
 ```
 
