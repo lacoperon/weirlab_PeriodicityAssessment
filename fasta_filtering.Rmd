@@ -3,7 +3,10 @@ title: Nucleotide periodicity assessment of gene transcription and translation u
   stress in *H. sapiens* and *E. coli*
 output:
   html_document:
-    df_print: paged
+    code_folding: hide
+    fig_caption: yes
+    fig_height: 7
+    fig_width: 10
 ---
 
 ## Reading in D.E. Andreev Data
@@ -17,7 +20,11 @@ Finally, we write the names of the upregulated and downregulated genes into
 separate files, to be parsed by `read_fasta.py` in conjunction with the 
 Ensembl CDS dataset.
 
-```{r, message=F}
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache=TRUE)
+```
+
+```{r riboseq, message=F}
 # Reads in D.E. Andreev data, and filters for the 10% FDR threshold for riboseq
 # being True
 library(readr)
@@ -53,7 +60,7 @@ write_csv(select(df_tsl_resp_control, `Gene symbol`) ,"./data/hsapiens/andreev_g
 As you can see, the number of repetitions doesn't seem much affected by the
 up/downregulation.
 
-```{r, message=F}
+```{r ensembl hits, message=F}
 df_ensembl_hits_up <- read_csv("./data/hsapiens/runs/hits_up.csv")
 df_ensembl_hits_down <- read_csv("./data/hsapiens/runs/hits_down.csv")
 df_ensembl_hits_control <- read_csv("./data/hsapiens/runs/hits_control.csv")
@@ -138,11 +145,19 @@ Analysis Tool.
 Recall that, based on the runs in `read_fasta.py`, the nucleotide frequency in
 humans is 
 
-```{bash eval=F}
-dict_items([('A', 0.25961334304060124), ('T', 0.21846022530138462), ('G', 0.2627307219587737), ('C', 0.25919570969924044)])
+```{r nucleofreqs}
+print(paste("A", 0.25961334304060124))
+print(paste("T", 0.21846022530138462))
+print(paste("G", 0.2627307219587737))
+print(paste("C", 0.25919570969924044))
 ```
 
-```{r, message=F}
+## Writing out the filtered fasta files
+
+Here, we're outputting our three sets of filtered FASTA dataframes, 
+for 5 samplings, to disk, to be used with the Information Theory IGS web tool.
+
+```{r andreev gene sampling, message=F}
 
 for (i in 1:5) {
   andreev_df_up[[i]]$FASTAHeader <- trimws(paste(">", andreev_df_up[[i]]$FASTAHeader, sep=""))
@@ -175,7 +190,11 @@ for (i in 1:5) {
 
 ## Reading in Results of Information Theory Analysis
 
-```{r, message=F, warning=F}
+Now, we're taking the csv representation of the results of said analysis, and 
+producing three sets of data (corresponding to the upregulated genes, 
+downregulated genes and control) for each of the five samplings.
+
+```{r infotheory_runs, message=F, warning=F}
 
 infotheory_up <- c()
 infotheory_down <- c()
@@ -196,10 +215,45 @@ for (i in 1:5) {
             "/infotheory_control_", i, ".csv", sep="")) %>%
     filter(pos > 3)
 }
+```
+And now, to graph them all juxtaposed to each other, showcasing that the patterns
+shown seem conserved across the board.
+```{r weight graph}
+getWeightsOfNucleotide <- function(graph_data_up, graph_data_down, graph_data_control, nt) {
+  graph_data_combined_up <- graph_data_up %>%
+    filter(nucleotide ==nt) %>%
+    mutate(label="up")
+  
+  graph_data_combined_down <- graph_data_down %>%
+    filter(nucleotide ==nt) %>%
+    mutate(label="down")
+  
+  graph_data_combined_control <- graph_data_control %>%
+    filter(nucleotide ==nt) %>%
+    mutate(label="control")
+  
+  graph_data_combined <- rbind(graph_data_combined_up, 
+                               graph_data_combined_down,
+                               graph_data_combined_control)
+  
+  return(graph_data_combined)
+  
+}
+
+plotResult <- function(graph_data_combined, nt, postfix) {
+  ggplot(graph_data_combined, aes(x=pos, y=relativeWeight, color=label)) +
+           geom_line() + scale_x_continuous(breaks = seq(5, 35, 3)) + labs(
+      x= "Position in CDS",
+      y= "Relative Weight (by InfoTheory)",
+      title=paste(nt, "Frequency along ORF"),
+      subtitle=paste("D.E. Andreev filtered genes (up + down regulated)", postfix)
+    )
+}
+ 
+library(tidyr)
+library(plyr)
 
 plotInfoTheoryResults <- function(infotheory_up, infotheory_down, infotheory_control, i) {
-  library(tidyr)
-  library(plyr)
   
   graph_data_up <- infotheory_up %>%
     select(pos, relWeightA, relWeightT, relWeightG, relWeightC) %>%
@@ -222,112 +276,26 @@ plotInfoTheoryResults <- function(infotheory_up, infotheory_down, infotheory_con
             from=c("relWeightA","relWeightC","relWeightT", "relWeightG"), 
             to=c("A","C","T","G"))
   
-  graph_data_combined_up <- graph_data_up %>%
-    filter(nucleotide =="A") %>%
-    mutate(label="up")
+  a_data_combined <- getWeightsOfNucleotide(graph_data_up, graph_data_down, 
+                                                graph_data_control, "A")
+  t_data_combined <- getWeightsOfNucleotide(graph_data_up, graph_data_down, 
+                                                graph_data_control, "T")
+  c_data_combined <- getWeightsOfNucleotide(graph_data_up, graph_data_down, 
+                                                graph_data_control, "C")
+  g_data_combined <- getWeightsOfNucleotide(graph_data_up, graph_data_down, 
+                                                graph_data_control, "G")
   
-  graph_data_combined_down <- graph_data_down %>%
-    filter(nucleotide =="A") %>%
-    mutate(label="down")
+  a <- plotResult(a_data_combined, "A", i)
+  t <- plotResult(a_data_combined, "T", i)
+  c <- plotResult(a_data_combined, "C", i)
+  g <- plotResult(a_data_combined, "G", i)
   
-  graph_data_combined_control <- graph_data_control %>%
-    filter(nucleotide =="A") %>%
-    mutate(label="control")
-  
-  graph_data_combined <- rbind(graph_data_combined_up, 
-                               graph_data_combined_down,
-                               graph_data_combined_control)
-  
-  
-  a <- ggplot(graph_data_combined, aes(x=pos, y=relativeWeight, color=label)) +
-           geom_line() + scale_x_continuous(breaks = seq(5, 35, 3)) + labs(
-      x= "Position in CDS",
-      y= "Relative Weight (by InfoTheory)",
-      title="A Frequency along ORF",
-      subtitle=paste("D.E. Andreev filtered genes (up + down regulated) Run:",i)
-    )
-  
-  
-  graph_data_combined_up <- graph_data_up %>%
-    filter(nucleotide =="T") %>%
-    mutate(label="up")
-  
-  graph_data_combined_down <- graph_data_down %>%
-    filter(nucleotide =="T") %>%
-    mutate(label="down")
-  
-  graph_data_combined_control <- graph_data_control %>%
-    filter(nucleotide =="T") %>%
-    mutate(label="control")
-  
-  graph_data_combined <- rbind(graph_data_combined_up, 
-                               graph_data_combined_down,
-                               graph_data_combined_control)
-  
-  
-  t <- ggplot(graph_data_combined, aes(x=pos, y=relativeWeight, color=label)) +
-           geom_line() + scale_x_continuous(breaks = seq(5, 35, 3)) + labs(
-      x= "Position in CDS",
-      y= "Relative Weight (by InfoTheory)",
-      title="T Frequency along ORF",
-      subtitle=paste("D.E. Andreev filtered genes (up + down regulated) Run:",i)
-    )
-  
-  graph_data_combined_up <- graph_data_up %>%
-    filter(nucleotide =="C") %>%
-    mutate(label="up")
-  
-  graph_data_combined_down <- graph_data_down %>%
-    filter(nucleotide =="C") %>%
-    mutate(label="down")
-  
-  graph_data_combined_control <- graph_data_control %>%
-    filter(nucleotide =="C") %>%
-    mutate(label="control")
-  
-  graph_data_combined <- rbind(graph_data_combined_up, 
-                               graph_data_combined_down,
-                               graph_data_combined_control)
-  
-  c <- ggplot(graph_data_combined, aes(x=pos, y=relativeWeight, color=label)) +
-           geom_line() + scale_x_continuous(breaks = seq(5, 35, 3)) + labs(
-      x= "Position in CDS",
-      y= "Relative Weight (by InfoTheory)",
-      title="C Frequency along ORF",
-      subtitle=paste("D.E. Andreev filtered genes (up + down regulated) Run:",i)
-    )
-    
-  
-  graph_data_combined_up <- graph_data_up %>%
-    filter(nucleotide =="G") %>%
-    mutate(label="up")
-  
-  graph_data_combined_down <- graph_data_down %>%
-    filter(nucleotide =="G") %>%
-    mutate(label="down")
-  
-  graph_data_combined_control <- graph_data_control %>%
-    filter(nucleotide =="G") %>%
-    mutate(label="control")
-  
-  graph_data_combined <- rbind(graph_data_combined_up, 
-                               graph_data_combined_down,
-                               graph_data_combined_control)
-  
-  
-  g <- ggplot(graph_data_combined, aes(x=pos, y=relativeWeight, color=label)) +
-           geom_line() + scale_x_continuous(breaks = seq(5, 35, 3)) + labs(
-      x= "Position in CDS",
-      y= "Relative Weight (by InfoTheory)",
-      title="G Frequency along ORF",
-      subtitle=paste("D.E. Andreev filtered genes (up + down regulated) Run:",i)
-           )
   return(list(a,t,c,g))
 }
 
 res <- list()
 for (i in 1:5) {
-  res[i] <- list(plotInfoTheoryResults(infotheory_up[[i]], infotheory_down[[i]], infotheory_control[[i]], i))
+  res[i] <- list(plotInfoTheoryResults(infotheory_up[[i]], infotheory_down[[i]], infotheory_control[[i]], paste("Run:", i)))
 }
 
 library(gridExtra)
@@ -343,9 +311,21 @@ for (j in 1:4) {
 
 ```
 
+Finally, we graph the aggregation of the runs, to show general patterns across
+the 5 samplings absent of noise.
+
+```{r infotheory_agg}
+info_up_agg = data.frame(aaply(laply(infotheory_up, as.matrix), c(2, 3), mean))
+info_down_agg = data.frame(aaply(laply(infotheory_down, as.matrix), c(2, 3), mean))
+info_control_agg = data.frame(aaply(laply(infotheory_control, as.matrix), c(2, 3), mean))
+
+plotInfoTheoryResults(info_up_agg, info_down_agg, info_control_agg, "")
+
+```
+
+
 Future Controls:
 
-Repeat multiple times, get feel for how many genes have different substr(1,35)
 
 `dev_ingolia`, grab ingolia upregulated + downregulated under stress from SQL DB,
 then rerun this analysis on this. Also *E. coli*.
