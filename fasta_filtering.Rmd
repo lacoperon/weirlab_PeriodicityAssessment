@@ -286,9 +286,9 @@ plotInfoTheoryResults <- function(infotheory_up, infotheory_down, infotheory_con
                                                 graph_data_control, "G")
   
   a <- plotResult(a_data_combined, "A", i)
-  t <- plotResult(a_data_combined, "T", i)
-  c <- plotResult(a_data_combined, "C", i)
-  g <- plotResult(a_data_combined, "G", i)
+  t <- plotResult(t_data_combined, "T", i)
+  c <- plotResult(c_data_combined, "C", i)
+  g <- plotResult(g_data_combined, "G", i)
   
   return(list(a,t,c,g))
 }
