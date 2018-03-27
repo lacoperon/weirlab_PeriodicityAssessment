@@ -22,3 +22,5 @@ transcription and translation in *H. sapiens*.
 To come...
 
 ## Coding Files
+
+To see the analyis done on the *H. sapiens* dataset, [click here](hsapiens_fasta_filtering.ipynb).
