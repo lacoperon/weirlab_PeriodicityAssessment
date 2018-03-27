@@ -1,0 +1,606 @@
+>>AAC73112 cds chromosome:ASM584v2:Chromosome:190:255:1 gene:b0001 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:thrL description:thr operon leader peptide
+ATGAAACGCATTAGCACCACCATTACCACCACCAT
+>>AAC73118 cds chromosome:ASM584v2:Chromosome:6529:7959:-1 gene:b0007 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:yaaJ description:putative transporter
+ATGCCAGATTTTTTCTCCTTCATTAACAGCGTCCT
+>>AAC73134 cds chromosome:ASM584v2:Chromosome:20815:21078:-1 gene:b0023 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:rpsT description:30S ribosomal subunit protein S20
+TTGGCTAATATCAAATCAGCTAAGAAGCGCGCCAT
+>>AAC73148 cds chromosome:ASM584v2:Chromosome:36271:37824:-1 gene:b0037 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:caiC description:putative crotonobetaine/carnitine-CoA ligase
+ATGGATATCATTGGCGGACAACATCTACGTCAAAT
+>>AAC73205 cds chromosome:ASM584v2:Chromosome:103982:105244:1 gene:b0094 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:ftsA description:ATP-binding cell division FtsK recruitment protein
+ATGATCAAGGCGACGGACAGAAAACTGGTAGTAGG
+>>AAC73220 cds chromosome:ASM584v2:Chromosome:117752:118645:-1 gene:b0109 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:nadC description:quinolinate phosphoribosyltransferase
+ATGCCGCCTCGCCGCTATAACCCTGACACCCGACG
+>>AAC73223 cds chromosome:ASM584v2:Chromosome:120178:121551:-1 gene:b0112 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:aroP description:aromatic amino acid transporter
+ATGATGGAAGGTCAACAGCACGGCGAGCAGCTAAA
+>>AAC73229 cds chromosome:ASM584v2:Chromosome:131615:134212:1 gene:b0118 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:acnB description:aconitate hydratase 2; aconitase B; 2-methyl-cis-aconitate hydratase
+GTGCTAGAAGAATACCGTAAGCACGTAGCTGAGCG
+>>AAC73230 cds chromosome:ASM584v2:Chromosome:134388:134750:1 gene:b0119 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:yacL description:UPF0231 family protein
+ATGGATTACGAATTTCTGCGCGATATTACCGGAGT
+>>AAC73239 cds chromosome:ASM584v2:Chromosome:143702:144472:1 gene:b0128 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:yadH description:putative ABC transporter permease
+ATGATGCATCTTTACTGGGTGGCGCTAAAAAGCAT
+>>AAC73244 cds chromosome:ASM584v2:Chromosome:147944:148795:-1 gene:b0133 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:panC description:pantothenate synthetase
+GTGTTAATTATCGAAACCCTGCCGCTGCTGCGTCA
+>>AAC73268 cds chromosome:ASM584v2:Chromosome:177001:177624:-1 gene:b0157 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:yadS description:UPF0126 family inner membrane protein
+ATGCTCGTCTATTGGCTGGATATAGTCGGCACAGC
+>>AAC73280 cds chromosome:ASM584v2:Chromosome:189874:190599:1 gene:b0169 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:rpsB description:30S ribosomal subunit protein S2
+ATGGCAACTGTTTCCATGCGCGACATGCTCAAGGC
+>>AAC73283 cds chromosome:ASM584v2:Chromosome:192872:193429:1 gene:b0172 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:frr description:ribosome recycling factor
+GTGATTAGCGATATCAGAAAAGATGCTGAAGTACG
+>>AAC73305 cds chromosome:ASM584v2:Chromosome:217057:218775:-1 gene:b0194 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:proS description:prolyl-tRNA synthetase
+ATGCGTACTAGCCAATACCTGCTCTCCACTCTCAA
+>>AAC73308 cds chromosome:ASM584v2:Chromosome:220113:220928:-1 gene:b0197 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:metQ description:DL-methionine transporter subunit
+ATGGCGTTCAAATTCAAAACCTTTGCGGCAGTGGG
+>>AAC73316 cds chromosome:ASM584v2:Chromosome:232597:233955:-1 gene:b0211 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:mltD description:putative membrane-bound lytic murein transglycosylase D
+ATGAAGGCAAAAGCGATATTACTCGCCTCTGTCCT
+>>AAC73320 cds chromosome:ASM584v2:Chromosome:236067:236798:1 gene:b0215 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:dnaQ description:DNA polymerase III epsilon subunit
+ATGAGCACTGCAATTACACGCCAGATCGTTCTCGA
+>>AAC73323 cds chromosome:ASM584v2:Chromosome:239419:240189:-1 gene:b0219 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:yafV description:putative NAD(P)-binding C-N hydrolase family amidase
+GTGCCTGGTTTGAAGATTACGCTTTTGCAGCAACC
+>>AAC73479 cds chromosome:ASM584v2:Chromosome:395130:396287:-1 gene:b0376 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:ampH description:D-alanyl-D-alanine-carboxypeptidase/endopeptidase; penicillin-binding protein; weak beta-lactamase
+TTGAAACGTAGTCTGCTTTTTTCTGCCGTGCTGTG
+>>AAC73480 cds chromosome:ASM584v2:Chromosome:396639:397859:1 gene:b0377 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:sbmA description:peptide antibiotic transporter
+ATGTTTAAGTCTTTTTTCCCAAAGCCGGGAACGTT
+>>AAC73502 cds chromosome:ASM584v2:Chromosome:417142:417831:1 gene:b0399 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:phoB description:response regulator in two-component regulatory system with PhoR
+ATGGCGAGACGTATTCTGGTCGTAGAAGATGAAGC
+>>AAC73537 cds chromosome:ASM584v2:Chromosome:453589:454167:-1 gene:b0434 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:yajG description:putative lipoprotein
+ATGTTCAAAAAAATCCTCTTCCCGTTAGTTGCTCT
+>>AAC73539 cds chromosome:ASM584v2:Chromosome:455133:456431:1 gene:b0436 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:tig description:peptidyl-prolyl cis/trans isomerase (trigger factor)
+ATGCAAGTTTCAGTTGAAACCACTCAAGGCCTTGG
+>>AAC73540 cds chromosome:ASM584v2:Chromosome:456677:457300:1 gene:b0437 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:clpP description:proteolytic subunit of ClpA-ClpP and ClpX-ClpP ATP-dependent serine proteases
+ATGTCATACAGCGGCGAACGAGATAACTTTGCACC
+>>AAC73541 cds chromosome:ASM584v2:Chromosome:457426:458700:1 gene:b0438 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:clpX description:ATPase and specificity subunit of ClpX-ClpP ATP-dependent serine protease
+ATGACAGATAAACGCAAAGATGGCTCAGGCAAATT
+>>AAC73544 cds chromosome:ASM584v2:Chromosome:461915:463786:1 gene:b0441 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:ppiD description:periplasmic folding chaperone, has an inactive PPIase domain
+ATGATGGACAGCTTACGCACGGCTGCAAACAGTCT
+>>AAC73571 cds chromosome:ASM584v2:Chromosome:491412:491963:1 gene:b0469 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:apt description:adenine phosphoribosyltransferase
+ATGACCGCGACTGCACAGCAGCTTGAGTATCTCAA
+>>AAC73579 cds chromosome:ASM584v2:Chromosome:500125:501429:1 gene:b0477 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:gsk description:inosine/guanosine kinase
+ATGAAATTTCCCGGTAAACGTAAATCCAAACATTA
+>>AAC73781 cds chromosome:ASM584v2:Chromosome:712987:713532:1 gene:b0687 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:seqA description:negative modulator of initiation of replication
+ATGAAAACGATTGAAGTTGATGATGAACTCTACAG
+>>AAC73782 cds chromosome:ASM584v2:Chromosome:713558:715198:1 gene:b0688 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:pgm description:phosphoglucomutase
+ATGGCAATCCACAATCGTGCAGGCCAACCTGCACA
+>>AAC73794 cds chromosome:ASM584v2:Chromosome:729583:733776:1 gene:b0700 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:rhsC description:Rhs protein with putative toxin domain; putative neighboring cell growth inhibitor
+ATGAGCGGAAAACCGGCGGCGCGTCAGGGCGACAT
+>>AAC73807 cds chromosome:ASM584v2:Chromosome:745165:745899:1 gene:b0713 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:ybgL description:UPF0271 family protein
+ATGAAAATTGACCTGAACGCCGATCTGGGCGAAGG
+>>AAC73841 cds chromosome:ASM584v2:Chromosome:785633:786685:1 gene:b0754 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:aroG description:3-deoxy-D-arabino-heptulosonate-7-phosphate synthase, phenylalanine repressible
+ATGAATTATCAGAACGACGATTTACGCATCAAAGA
+>>AAC73897 cds chromosome:ASM584v2:Chromosome:846460:847119:-1 gene:b0810 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:glnP description:glutamine transporter subunit
+ATGCAGTTTGACTGGAGTGCCATCTGGCCTGCCAT
+>>AAC73950 cds chromosome:ASM584v2:Chromosome:902257:902988:-1 gene:b0863 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:artI description:arginine transporter subunit
+ATGAAAAAAGTTCTGATTGCCGCGTTAATTGCAGG
+>>AAC73975 cds chromosome:ASM584v2:Chromosome:932595:933089:1 gene:b0889 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:lrp description:leucine-responsive global transcriptional regulator
+ATGGTAGATAGCAAGAAGCGCCCTGGCAAAGATCT
+>>AAC73988 cds chromosome:ASM584v2:Chromosome:950340:951080:-1 gene:b0902 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:pflA description:pyruvate formate-lyase 1-activating enzyme; [formate-C-acetyltransferase 1]-activating enzyme; PFL activase
+ATGTCAGTTATTGGTCGCATTCACTCCTTTGAATC
+>>AAC73997 cds chromosome:ASM584v2:Chromosome:961995:963668:1 gene:b0911 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:rpsA description:30S ribosomal subunit protein S1
+ATGACTGAATCTTTTGCTCAACTCTTTGAAGAGTC
+>>AAC74009 cds chromosome:ASM584v2:Chromosome:975622:976326:1 gene:b0923 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:mukE description:chromosome condensin MukBEF, MukE localization factor
+ATGTCATCGACAAATATTGAACAAGTGATGCCGGT
+>>AAC74018 cds chromosome:ASM584v2:Chromosome:990622:993234:1 gene:b0932 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:pepN description:aminopeptidase N
+ATGACTCAACAGCCACAAGCCAAATACCGTCACGA
+>>AAC74034 cds chromosome:ASM584v2:Chromosome:1007844:1009952:1 gene:b0948 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:rlmL description:23S rRNA m(2)G2445 and m(7)G2069 methyltransferases, SAM-dependent
+ATGAATTCTCTGTTTGCCAGTACGGCCCGTGGGCT
+>>AAC74041 cds chromosome:ASM584v2:Chromosome:1016539:1018299:-1 gene:b0955 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:ycbZ description:putative peptidase
+TTGACCATTACGAAACTTGCATGGCGTGACCTGGT
+>>AAC74139 cds chromosome:ASM584v2:Chromosome:1116807:1117859:1 gene:b1055 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:yceA description:putative rhodanese-related sulfurtransferase
+ATGCCAGTGTTACACAACCGCATTTCCAACGACGC
+>>AAC74151 cds chromosome:ASM584v2:Chromosome:1126157:1126804:1 gene:b1067 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:yceH description:UPF0502 family protein
+ATGAAATATCAACTTACTGCCCTTGAAGCTCGCGT
+>>AAC74168 cds chromosome:ASM584v2:Chromosome:1141182:1144367:-1 gene:b1084 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:rne description:endoribonuclease; RNA-binding protein;RNA degradosome binding protein
+ATGAAAAGAATGTTAATCAACGCAACTCAGCAGGA
+>>AAC74176 cds chromosome:ASM584v2:Chromosome:1149728:1150657:1 gene:b1092 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:fabD description:malonyl-CoA-[acyl-carrier-protein] transacylase
+ATGACGCAATTTGCATTTGTGTTCCCTGGACAGGG
+>>AAC74177 cds chromosome:ASM584v2:Chromosome:1150670:1151404:1 gene:b1093 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:fabG description:3-oxoacyl-[acyl-carrier-protein] reductase
+ATGAATTTTGAAGGAAAAATCGCACTGGTAACCGG
+>>AAC74178 cds chromosome:ASM584v2:Chromosome:1151615:1151851:1 gene:b1094 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:acpP description:acyl carrier protein (ACP)
+ATGAGCACTATCGAAGAACGCGTTAAGAAAATTAT
+>>AAC74180 cds chromosome:ASM584v2:Chromosome:1153300:1154109:1 gene:b1096 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:pabC description:4-amino-4-deoxychorismate lyase component of para-aminobenzoate synthase multienzyme complex
+ATGTTCTTAATTAACGGTCATAAGCAGGAATCGCT
+>>AAC74191 cds chromosome:ASM584v2:Chromosome:1164095:1165120:1 gene:b1107 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:nagZ description:beta N-acetyl-glucosaminidase
+GTGGGTCCAGTAATGTTGGATGTCGAAGGTTACGA
+>>AAC74295 cds chromosome:ASM584v2:Chromosome:1265012:1266094:1 gene:b1211 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:prfA description:peptide chain release factor RF-1
+ATGAAGCCTTCTATCGTTGCCAAACTGGAAGCCCT
+>>AAC74318 cds chromosome:ASM584v2:Chromosome:1291457:1292365:1 gene:b1236 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:galU description:glucose-1-phosphate uridylyltransferase
+ATGGCTGCCATTAATACGAAAGTCAAAAAAGCCGT
+>>AAC74349 cds chromosome:ASM584v2:Chromosome:1324098:1324718:1 gene:b1267 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:yciO description:putative RNA binding protein
+ATGAGCCAGTTTTTTTATATTCATCCTGATAACCC
+>>AAC74351 cds chromosome:ASM584v2:Chromosome:1326852:1327727:1 gene:b1269 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:rluB description:23S rRNA pseudouridine(2605) synthase
+ATGAGCGAAAAGCTACAGAAAGTGCTGGCGCGTGC
+>>AAC74353 cds chromosome:ASM584v2:Chromosome:1328354:1329112:-1 gene:b1271 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:yciK description:putative EmrKY-TolC system oxoacyl-(acyl carrier protein) reductase
+ATGCATTACCAGCCAAAACAAGATTTACTCAATGA
+>>AAC74370 cds chromosome:ASM584v2:Chromosome:1350251:1351039:-1 gene:b1288 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:fabI description:enoyl-[acyl-carrier-protein] reductase, NADH-dependent
+ATGGGTTTTCTTTCCGGTAAGCGCATTCTGGTAAC
+>>AAC74412 cds chromosome:ASM584v2:Chromosome:1394891:1395922:-1 gene:b1330 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:ynaI description:mechanosensitive channel protein, very small conductance
+ATGATCGCTGAACTGTTTACAAATAATGCGCTTAA
+>>AAC74414 cds chromosome:ASM584v2:Chromosome:1397365:1397622:1 gene:b1332 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:ynaJ description:DUF2534 family putative inner membrane protein
+ATGATTATGGCGAAACTGAAGTCAGCGAAAGGGAA
+>>AAC74466 cds chromosome:ASM584v2:Chromosome:1446378:1447283:-1 gene:b1384 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:feaR description:transcriptional activator for tynA and feaB
+ATGAACCCCGCAGTGGATAATGAGTTTCAGCAATG
+>>AAC74505 cds chromosome:ASM584v2:Chromosome:1495288:1496631:1 gene:b1423 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:ydcJ description:putative metalloenzyme
+ATGGCGAACAGCATCACGGCGGATGAGATTCGGGA
+>>AAC74522 cds chromosome:ASM584v2:Chromosome:1511654:1512799:1 gene:b1440 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:ydcS description:putative ABC transporter periplasmic binding protein
+ATGAGCAAGACATTTGCCCGCAGCAGCCTGTGTGC
+>>AAD13441 cds chromosome:ASM584v2:Chromosome:1552398:1552682:-1 gene:b1477 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:yddM description:putative DNA-binding transcriptional regulator
+ATGAAAATGGCCAATCATCCCCGCCCGGGGGACAT
+>>AAC74554 cds chromosome:ASM584v2:Chromosome:1556065:1556280:-1 gene:b1481 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:bdm description:biofilm-dependent modulation protein
+ATGTTTACTTATTATCAGGCAGAAAATTCAACAGC
+>>AAC74574 cds chromosome:ASM584v2:Chromosome:1584207:1586486:-1 gene:b1501 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:ydeP description:putative oxidoreductase
+ATGAAGAAAAAAATTGAATCCTACCAGGGTGCTGC
+>>AAC74604 cds chromosome:ASM584v2:Chromosome:1619574:1619957:1 gene:b1531 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:marA description:multiple antibiotic resistance transcriptional regulator
+ATGTCCAGACGCAATACTGACGCTATTACCATTCA
+>>AAC74607 cds chromosome:ASM584v2:Chromosome:1621332:1622519:1 gene:b1534 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:ydeE description:putative transporter
+ATGAACTTATCCCTACGACGCTCTACCAGCGCCCT
+>>AAC74614 cds chromosome:ASM584v2:Chromosome:1629215:1629418:1 gene:b1541 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:ydfZ description:selenoprotein, function unknown
+ATGACGACCTACGATCGTAACCGTAACGCAATCAC
+>>AAC74635 cds chromosome:ASM584v2:Chromosome:1645119:1645274:-1 gene:b1562 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:hokD description:Qin prophage; small toxic polypeptide
+ATGAAGCAGCAAAAGGCGATGTTAATCGCCCTGAT
+>>AAC74663 cds chromosome:ASM584v2:Chromosome:1664506:1665120:1 gene:b1591 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:dmsD description:twin-argninine leader-binding protein for DmsA and TorA
+ATGACCCATTTTTCACAGCAAGATAATTTTTCTGT
+>>AAC74664 cds chromosome:ASM584v2:Chromosome:1665315:1666571:1 gene:b1592 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:clcB description:H(+)/Cl(-) exchange transporter
+ATGTTCCACCGTCTGCTTATCGCAACAGTCGTCGG
+>>AAC74708 cds chromosome:ASM584v2:Chromosome:1715026:1715889:-1 gene:b1636 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:pdxY description:pyridoxamine kinase
+ATGATGAAAAATATTCTCGCTATCCAGTCTCACGT
+>>AAC74722 cds chromosome:ASM584v2:Chromosome:1726659:1727756:1 gene:b1650 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:nemA description:chromate reductase, quinone reductase, FMN-linked; N-Ethylmaleimide reductase; old yellow enzyme
+ATGTCATCTGAAAAACTGTATTCCCCACTGAAAGT
+>>AAC74723 cds chromosome:ASM584v2:Chromosome:1727837:1728244:1 gene:b1651 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:gloA description:glyoxalase I, Ni-dependent
+ATGCGTCTTCTTCATACCATGCTGCGCGTTGGCGA
+>>AAC74726 cds chromosome:ASM584v2:Chromosome:1733754:1734101:-1 gene:b1654 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:grxD description:glutaredoxin-4
+ATGAGCACCACTATCGAAAAAATCCAACGCCAGAT
+>>AAT48136 cds chromosome:ASM584v2:Chromosome:1743457:1744830:1 gene:b1663 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:mdtK description:multidrug efflux system transporter
+GTGCAGAAGTATATCAGTGAAGCGCGTCTGTTATT
+>>AAC74774 cds chromosome:ASM584v2:Chromosome:1788435:1789481:1 gene:b1704 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:aroH description:3-deoxy-D-arabino-heptulosonate-7-phosphate synthase, tryptophan repressible
+ATGAACAGAACTGACGAACTCCGTACTGCGCGTAT
+>>AAC74778 cds chromosome:ASM584v2:Chromosome:1792267:1792731:-1 gene:b1708 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:nlpC description:putative C40 clan peptidase lipoprotein
+ATGCGTTTCTGCCTTATTTTGATCACAGCACTGCT
+>>AAC74780 cds chromosome:ASM584v2:Chromosome:1793558:1794109:-1 gene:b1710 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:btuE description:glutathione peroxidase
+ATGCAAGATTCCATTCTGACGACCGTAGTGAAAGA
+>>AAC74787 cds chromosome:ASM584v2:Chromosome:1799802:1799999:-1 gene:b1717 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:rpmI description:50S ribosomal subunit protein L35
+ATGCCAAAAATTAAGACCGTACGCGGTGCTGCTAA
+>>AAC74788 cds chromosome:ASM584v2:Chromosome:1800096:1800638:-1 gene:b1718 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:infC description:translation initiation factor IF-3
+ATTAAAGGCGGAAAACGAGTTCAAACGGCGCGCCC
+>>AAC74789 cds chromosome:ASM584v2:Chromosome:1800642:1802570:-1 gene:b1719 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:thrS description:threonyl-tRNA synthetase
+ATGCCTGTTATAACTCTTCCTGATGGCAGCCAACG
+>>AAC74795 cds chromosome:ASM584v2:Chromosome:1807796:1808656:1 gene:b1725 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:yniA description:fructosamine kinase family protein
+ATGTGGCAGGCAATCAGTCGTCTTTTGAGCGAGCA
+>>AAC74797 cds chromosome:ASM584v2:Chromosome:1809380:1810048:1 gene:b1727 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:yniC description:2-deoxyglucose-6-P phosphatase
+ATGTCAACCCCGCGTCAGATTCTTGCTGCAATTTT
+>>AAC74825 cds chromosome:ASM584v2:Chromosome:1837212:1838747:1 gene:b1755 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:ynjC description:putative ABC transporter permease
+ATGGCTACACCGTTACGGTACGCATTAATCTTTTT
+>>AAC74830 cds chromosome:ASM584v2:Chromosome:1841863:1842135:-1 gene:b1760 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:ynjH description:DUF1496 family protein
+GTGAGTCGAGCATTGTTCGCCGTAGTATTAGCATT
+>>AAC74836 cds chromosome:ASM584v2:Chromosome:1848837:1850693:1 gene:b1766 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:sppA description:protease IV (signal peptide peptidase)
+ATGCGAACCCTTTGGCGATTTATTGCCGGATTTTT
+>>AAC74849 cds chromosome:ASM584v2:Chromosome:1862771:1863766:1 gene:b1779 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:gapA description:glyceraldehyde-3-phosphate dehydrogenase A
+ATGACTATCAAAGTAGGTATCAACGGTTTTGGCCG
+>>AAC74862 cds chromosome:ASM584v2:Chromosome:1876909:1877256:1 gene:b1792 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:yeaO description:DUF488 family protein
+ATGAATATTCAGTGCAAACGCGTTTATGATCCGGC
+>>AAC74865 cds chromosome:ASM584v2:Chromosome:1879007:1879255:-1 gene:b1795 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:yeaQ description:UPF0410 family protein
+ATGGGCATTCTGTCATGGATTATTTTTGGGCTTAT
+>>AAC74868 cds chromosome:ASM584v2:Chromosome:1880121:1880759:-1 gene:b1798 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:leuE description:leucine efflux protein
+GTGTTCGCTGAATACGGGGTTCTGAATTACTGGAC
+>>AAC74874 cds chromosome:ASM584v2:Chromosome:1886864:1887991:-1 gene:b1804 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:rnd description:ribonuclease D
+TTGAATTACCAAATGATTACCACGGACGATGCGCT
+>>AAC74875 cds chromosome:ASM584v2:Chromosome:1888061:1889746:-1 gene:b1805 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:fadD description:acyl-CoA synthetase (long-chain-fatty-acid--CoA ligase)
+TTGAAGAAGGTTTGGCTTAACCGTTATCCCGCGGA
+>>AAC74881 cds chromosome:ASM584v2:Chromosome:1894552:1894731:-1 gene:b1811 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:yoaH description:UPF0181 family protein
+ATGTTTGCAGGTTTACCTTCACTCACCCATGAACA
+>>AAC74910 cds chromosome:ASM584v2:Chromosome:1923719:1924591:-1 gene:b1840 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:yebZ description:inner membrane protein
+ATGCTGGCGTTTACCTGGATCGCGCTGCGATTTAT
+>>AAC74911 cds chromosome:ASM584v2:Chromosome:1924595:1924969:-1 gene:b1841 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:yobA description:CopC family protein
+ATGGCTTCAACTGCACGCTCCCTTCGCTACGCGCT
+>>AAC74915 cds chromosome:ASM584v2:Chromosome:1926779:1928839:-1 gene:b1845 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:ptrB description:protease II
+ATGCTACCAAAAGCCGCCCGCATTCCCCACGCCAT
+>>AAC74922 cds chromosome:ASM584v2:Chromosome:1934839:1936314:-1 gene:b1852 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:zwf description:glucose-6-phosphate 1-dehydrogenase
+ATGGCGGTAACGCAAACAGCCCAGGCCTGTGACCT
+>>AAC74940 cds chromosome:ASM584v2:Chromosome:1952702:1953445:1 gene:b1870 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:cmoA description:carboxy-SAM synthase
+ATGTCTCACCGCGACACGCTATTTTCTGCCCCTAT
+>>AAC74951 cds chromosome:ASM584v2:Chromosome:1966393:1967037:-1 gene:b1881 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:cheZ description:chemotaxis regulator, protein phosphatase for CheY
+ATGATGCAACCATCAATCAAACCTGCTGACGAGCA
+>>AAC74955 cds chromosome:ASM584v2:Chromosome:1969383:1970984:-1 gene:b1885 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:tap description:methyl-accepting protein IV
+ATGTTTAATCGTATTCGAATTTCGACCACGCTGTT
+>>AAC74966 cds chromosome:ASM584v2:Chromosome:1980188:1981612:-1 gene:b1896 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:otsA description:trehalose-6-phosphate synthase
+ATGAGTCGTTTAGTCGTAGTATCTAACCGGATTGC
+>>AAC74967 cds chromosome:ASM584v2:Chromosome:1981587:1982387:-1 gene:b1897 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:otsB description:trehalose-6-phosphate phosphatase, biosynthetic
+GTGACAGAACCGTTAACCGAAACCCCTGAACTATC
+>>AAC74971 cds chromosome:ASM584v2:Chromosome:1985139:1986128:-1 gene:b1901 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:araF description:L-arabinose ABC transporter periplasmic binding protein
+ATGCACAAATTTACTAAAGCCCTGGCAGCCATTGG
+>>AAC74987 cds chromosome:ASM584v2:Chromosome:1999585:2000385:-1 gene:b1920 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:fliY description:cystine transporter subunit
+ATGAAATTAGCACATCTGGGACGTCAGGCATTGAT
+>>AAC75020 cds chromosome:ASM584v2:Chromosome:2024986:2025213:1 gene:b1953 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:yodD description:uncharacterized protein
+ATGAAAACCGCAAAAGAGTACAGCGATACCGCAAA
+>>AAC75045 cds chromosome:ASM584v2:Chromosome:2053643:2054959:1 gene:b1981 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:shiA description:shikimate transporter
+ATGGACTCCACGCTCATCTCCACTCGTCCCGATGA
+>>AAC75046 cds chromosome:ASM584v2:Chromosome:2055061:2056515:1 gene:b1982 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:amn description:AMP nucleosidase
+ATGAATAATAAGGGCTCCGGTCTGACCCCAGCTCA
+>>AAC75072 cds chromosome:ASM584v2:Chromosome:2082756:2084183:1 gene:b2011 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:sbcB description:exodeoxyribonuclease I; exonuclease I
+ATGATGAATGACGGTAAGCAACAATCTACCTTTTT
+>>AAC75090 cds chromosome:ASM584v2:Chromosome:2099862:2101268:-1 gene:b2029 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:gnd description:6-phosphogluconate dehydrogenase, decarboxylating
+ATGTCCAAGCAACAGATCGGCGTAGTCGGTATGGC
+>>AAC75093 cds chromosome:ASM584v2:Chromosome:2103391:2104509:-1 gene:b2032 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:wbbK description:lipopolysaccharide biosynthesis protein
+ATGGGAAAAAGCATAGTCGTTGTTTCTGCGGTCAA
+>>AAC75094 cds chromosome:ASM584v2:Chromosome:2104494:2105084:-1 gene:b2033 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:wbbJ description:putative lipopolysaccharide biosynthesis O-acetyl transferase
+ATGATCTTAAAACTCGCTAAACGATATGGTCTCTG
+>>AAC75127 cds chromosome:ASM584v2:Chromosome:2142307:2142948:-1 gene:b2066 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:udk description:uridine/cytidine kinase
+ATGACTGATCAGTCTCATCAGTGCGTCATTATCGG
+>>AAC75154 cds chromosome:ASM584v2:Chromosome:2174282:2174566:-1 gene:b2093 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:gatB description:galactitol-specific enzyme IIB component of PTS
+ATGAAACGCAAGATTATTGTCGCTTGCGGAGGCGC
+>>AAC75156 cds chromosome:ASM584v2:Chromosome:2175059:2176321:-1 gene:b2095 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:gatZ description:D-tagatose 1,6-bisphosphate aldolase 2, subunit
+ATGAAAACGTTAATTGCCCGGCATAAAGCTGGTGA
+>>AAC75206 cds chromosome:ASM584v2:Chromosome:2233600:2233839:1 gene:b2145 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:yeiS description:DUF2542 family protein
+ATGGATGTACAGCAGTTTTTTGTCGTTGCCGTTTT
+>>AAC75214 cds chromosome:ASM584v2:Chromosome:2242984:2243652:-1 gene:b2153 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:folE description:GTP cyclohydrolase I
+ATGCCATCACTCAGTAAAGAAGCGGCCCTGGTTCA
+>>AAC75242 cds chromosome:ASM584v2:Chromosome:2277893:2278237:-1 gene:b2181 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:yejG description:uncharacterized protein
+GTGACTTCATTACAACTCTCAATCGTCCATCGACT
+>>AAC75244 cds chromosome:ASM584v2:Chromosome:2279788:2280483:-1 gene:b2183 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:rsuA description:16S rRNA pseudouridine(516) synthase
+ATGCGACTTGATAAATTTATCGCACAGCAACTCGG
+>>AAC75253 cds chromosome:ASM584v2:Chromosome:2290500:2291147:1 gene:b2193 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:narP description:response regulator in two-component regulatory system with NarQ
+ATGCCTGAAGCAACACCTTTTCAGGTGATGATTGT
+>>AAC75263 cds chromosome:ASM584v2:Chromosome:2298269:2298718:-1 gene:b2203 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:napB description:nitrate reductase, small, cytochrome C550 subunit, periplasmic
+ATGAAAAGCCATGACCTGAAGAAAGCGCTGTGTCA
+>>AAC75294 cds chromosome:ASM584v2:Chromosome:2344865:2347150:1 gene:b2234 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:nrdA description:ribonucleoside-diphosphate reductase 1, alpha subunit
+ATGAATCAGAATCTGCTGGTGACAAAGCGCGACGG
+>>AAC75295 cds chromosome:ASM584v2:Chromosome:2347384:2348514:1 gene:b2235 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:nrdB description:ribonucleoside-diphosphate reductase 1, beta subunit, ferritin-like protein
+ATGGCATATACCACCTTTTCACAGACGAAAAATGA
+>>AAC75337 cds chromosome:ASM584v2:Chromosome:2391512:2393041:-1 gene:b2277 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:nuoM description:NADH:ubiquinone oxidoreductase, membrane subunit M
+ATGTTACTACCCTGGCTAATATTAATTCCCTTTAT
+>>AAC75355 cds chromosome:ASM584v2:Chromosome:2412677:2413132:-1 gene:b2295 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:yfbV description:UPF0208 family inner membrane protein
+ATGTCAACGCCGGATAATCGTTCTGTTAATTTTTT
+>>AAC75361 cds chromosome:ASM584v2:Chromosome:2419841:2420485:-1 gene:b2301 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:yfcF description:glutathione S-transferase
+ATGAGTAAACCCGCTATCACGCTTTGGTCAGATGC
+>>AAC75368 cds chromosome:ASM584v2:Chromosome:2425230:2425916:-1 gene:b2308 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:hisQ description:histidine ABC transporter permease
+ATGTTGTATGGGTTTTCAGGTGTTATTTTACAGGG
+>>AAC75370 cds chromosome:ASM584v2:Chromosome:2427009:2427791:-1 gene:b2310 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:argT description:lysine/arginine/ornithine transporter subunit
+ATGAAGAAGTCGATTCTCGCTCTGTCTTTGTTAGT
+>>AAC75400 cds chromosome:ASM584v2:Chromosome:2456327:2456812:-1 gene:b2340 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:sixA description:phosphohistidine phosphatase
+ATGCAAGTTTTTATCATGCGTCACGGCGACGCAGC
+>>AAC75465 cds chromosome:ASM584v2:Chromosome:2530247:2531233:-1 gene:b2412 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:zipA description:FtsZ stabilizer
+ATGATGCAGGATTTGCGTCTGATATTAATCATTGT
+>>AAC75468 cds chromosome:ASM584v2:Chromosome:2533764:2534021:1 gene:b2415 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:ptsH description:phosphohistidinoprotein-hexose phosphotransferase component of PTS system (Hpr)
+ATGTTCCAGCAAGAAGTTACCATTACCGCTCCGAA
+>>AAC75469 cds chromosome:ASM584v2:Chromosome:2534066:2535793:1 gene:b2416 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:ptsI description:PEP-protein phosphotransferase of PTS system (enzyme I)
+ATGATTTCAGGCATTTTAGCATCCCCGGGTATCGC
+>>AAC75470 cds chromosome:ASM584v2:Chromosome:2535834:2536343:1 gene:b2417 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:crr description:glucose-specific enzyme IIA component of PTS
+ATGGGTTTGTTCGATAAACTGAAATCTCTGGTTTC
+>>AAC75476 cds chromosome:ASM584v2:Chromosome:2540804:2541679:-1 gene:b2423 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:cysW description:sulfate/thiosulfate ABC transporter permease
+ATGGCGGAAGTTACCCAATTGAAGCGTTATGACGC
+>>AAC75477 cds chromosome:ASM584v2:Chromosome:2541679:2542512:-1 gene:b2424 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:cysU description:sulfate/thiosulfate ABC transporter permease
+ATGTTTGCTGTCTCCTCCAGACGCGTGCTGCCGGG
+>>AAC75482 cds chromosome:ASM584v2:Chromosome:2546673:2548097:1 gene:b2429 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:murP description:N-acetylmuramic acid permease, EIIBC component, PTS system
+ATGGCCAAAGAGATCAGCAGTGAACTTCTGAACAC
+>>AAC75484 cds chromosome:ASM584v2:Chromosome:2549646:2550545:-1 gene:b2431 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:yfeX description:porphyrinogen oxidase, cytoplasmic
+ATGTCTCAGGTTCAGAGTGGCATTTTGCCAGAACA
+>>AAC75571 cds chromosome:ASM584v2:Chromosome:2644433:2644864:-1 gene:b2518 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:ndk description:multifunctional nucleoside diphosphate kinase and apyrimidinic endonuclease and 3'-phosphodiesterase
+ATGGCTATTGAACGTACTTTTTCCATCATCAAACC
+>>AAC75576 cds chromosome:ASM584v2:Chromosome:2655075:2656358:-1 gene:b2523 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:pepB description:aminopeptidase B
+ATGACAGAAGCGATGAAGATTACCCTCTCTACCCA
+>>AAC75577 cds chromosome:ASM584v2:Chromosome:2656536:2656736:-1 gene:b2524 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:iscX description:Fe(2+) donor and activity modulator for cysteine desulfurase
+ATGGGACTTAAGTGGACCGATAGCCGCGAAATTGG
+>>AAC75585 cds chromosome:ASM584v2:Chromosome:2662583:2663323:-1 gene:b2532 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:trmJ description:tRNA mC32,mU32 2'-O-methyltransferase, SAM-dependent
+ATGCTGCAAAATATTCGAATTGTGCTGGTGGAGAC
+>>AAC75589 cds chromosome:ASM584v2:Chromosome:2666707:2667846:-1 gene:b2536 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:hcaT description:putative 3-phenylpropionic transporter
+ATGGTTTTGCAATCCACGCGCTGGTTGGCGCTCGG
+>>AAC75590 cds chromosome:ASM584v2:Chromosome:2668006:2668896:-1 gene:b2537 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:hcaR description:hca operon transcriptional regulator
+ATGGAACTACGGCATTTACGCTATTTCGTCGCAGT
+>>AAC75617 cds chromosome:ASM584v2:Chromosome:2700998:2701729:-1 gene:b2564 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:pdxJ description:pyridoxine 5'-phosphate synthase
+ATGGCTGAATTACTGTTAGGCGTCAACATTGACCA
+>>AAC75621 cds chromosome:ASM584v2:Chromosome:2704335:2705309:-1 gene:b2568 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:lepB description:leader peptidase (signal peptidase I)
+ATGGCGAATATGTTTGCCCTGATTCTGGTGATTGC
+>>AAC75622 cds chromosome:ASM584v2:Chromosome:2705325:2707124:-1 gene:b2569 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:lepA description:back-translocating elongation factor EF4, GTPase
+ATGAAGAATATACGTAACTTTTCGATCATAGCTCA
+>>AAC75629 cds chromosome:ASM584v2:Chromosome:2712896:2714230:1 gene:b2576 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:srmB description:ATP-dependent RNA helicase
+ATGACTGTAACGACTTTTTCCGAACTTGAACTCGA
+>>AAC75632 cds chromosome:ASM584v2:Chromosome:2716066:2716449:-1 gene:b2579 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:grcA description:autonomous glycyl radical cofactor
+ATGATTACAGGTATCCAGATTACTAAAGCCGCTAA
+>>AAC75642 cds chromosome:ASM584v2:Chromosome:2734303:2735034:-1 gene:b2593 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:yfiH description:UPF0124 family protein
+ATGAGTAAGCTGATTGTCCCGCAGTGGCCGCAGCC
+>>AAC75654 cds chromosome:ASM584v2:Chromosome:2743625:2744107:1 gene:b2605 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:yfiB description:OM lipoprotein putative positive effector of YfiN activity
+ATGATAAAGCACCTGGTAGCACCCCTGGTTTTCAC
+>>AAC75657 cds chromosome:ASM584v2:Chromosome:2745370:2745918:-1 gene:b2608 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:rimM description:ribosome maturation factor
+ATGAGCAAACAACTCACCGCGCAAGCACCTGTTGA
+>>AAC75658 cds chromosome:ASM584v2:Chromosome:2745937:2746185:-1 gene:b2609 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:rpsP description:30S ribosomal subunit protein S16
+ATGGTAACTATTCGTTTAGCACGTCACGGCGCTAA
+>>AAC75659 cds chromosome:ASM584v2:Chromosome:2746434:2747795:-1 gene:b2610 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:ffh description:Signal Recognition Particle (SRP) component with 4.5S RNA (ffs)
+ATGTTTGATAATTTAACCGATCGTTTGTCGCGCAC
+>>AAT48144 cds chromosome:ASM584v2:Chromosome:2748774:2750060:1 gene:b4461 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:yfjD description:UPF0053 family inner membrane protein
+CTGGAACACATTTCTACTACTACGTTGATCATTAT
+>>AAC75711 cds chromosome:ASM584v2:Chromosome:2795674:2796336:1 gene:b2664 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:csiR description:transcriptional repressor of csiD
+ATGACCATTACGTCTCTGGATGGCTATCGCTGGCT
+>>AAC75713 cds chromosome:ASM584v2:Chromosome:2796870:2797028:-1 gene:b2666 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:yqaE description:cyaR sRNA-regulated protein
+ATGGGTTTCTGGAGAATCGTCATCACCATCATTCT
+>>AAC75729 cds chromosome:ASM584v2:Chromosome:2809617:2810354:1 gene:b2682 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:ygaZ description:putative L-valine exporter, norvaline resistance protein
+ATGGAAAGCCCTACTCCACAGCCTGCTCCTGGTTC
+>>AAC75732 cds chromosome:ASM584v2:Chromosome:2811427:2812599:1 gene:b2685 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:emrA description:multidrug efflux system
+ATGAGCGCAAATGCGGAGACTCAAACCCCGCAGCA
+>>AAC75734 cds chromosome:ASM584v2:Chromosome:2814218:2814733:-1 gene:b2687 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:luxS description:S-ribosylhomocysteine lyase
+ATGCCGTTGTTAGATAGCTTCACAGTCGATCATAC
+>>AAT48148 cds chromosome:ASM584v2:Chromosome:2825832:2826395:1 gene:b2702 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:srlA description:glucitol/sorbitol-specific enzyme IIC component of PTS
+ATGATAGAAACCATTACTCATGGTGCAGAGTGGTT
+>>AAC75746 cds chromosome:ASM584v2:Chromosome:2827362:2827733:1 gene:b2704 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:srlB description:glucitol/sorbitol-specific enzyme IIA component of PTS
+ATGACCGTTATTTATCAGACCACCATCACCCGTAT
+>>AAC75783 cds chromosome:ASM584v2:Chromosome:2866559:2867551:-1 gene:b2741 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:rpoS description:RNA polymerase, sigma S (sigma 38) factor
+ATGAGTCAGAATACGCTGAAAGTTCATGATTTAAA
+>>AAC75789 cds chromosome:ASM584v2:Chromosome:2871780:2872490:-1 gene:b2747 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:ispD description:4-diphosphocytidyl-2C-methyl-D-erythritol synthase
+ATGGCAACCACTCATTTGGATGTTTGCGCCGTGGT
+>>AAC75849 cds chromosome:ASM584v2:Chromosome:2941236:2941631:-1 gene:b2807 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:ygdD description:UPF0382 family inner membrane protein
+ATGACCAGCCGTTTTATGCTGATTTTCGCCGCCAT
+>>AAC75853 cds chromosome:ASM584v2:Chromosome:2944542:2944985:1 gene:b2811 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:csdE description:CsdA-binding activator; Fe-S protein
+ATGACAAACCCGCAATTCGCCGGACATCCGTTCGG
+>>AAC75855 cds chromosome:ASM584v2:Chromosome:2946081:2947178:-1 gene:b2813 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:mltA description:membrane-bound lytic murein transglycosylase A
+ATGAAAGGACGTTGGGTAAAGTACCTTCTTATGGG
+>>AAC75866 cds chromosome:ASM584v2:Chromosome:2964361:2965155:-1 gene:b2827 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:thyA description:thymidylate synthetase
+ATGAAACAGTATTTAGAACTGATGCAAAAAGTGCT
+>>AAC75867 cds chromosome:ASM584v2:Chromosome:2965162:2966037:-1 gene:b2828 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:lgt description:phosphatidylglycerol-prolipoprotein diacylglyceryl transferase
+ATGACCAGTAGCTATCTGCATTTTCCGGAGTTTGA
+>>AAC75870 cds chromosome:ASM584v2:Chromosome:2969662:2970351:1 gene:b2831 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:mutH description:methyl-directed mismatch repair protein
+ATGTCCCAACCTCGCCCACTGCTCTCTCCTCCCGA
+>>AAC75883 cds chromosome:ASM584v2:Chromosome:2984411:2985592:-1 gene:b2844 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:yqeF description:short chain acyltransferase
+ATGAAAGACGTTGTGATTGTCGGGGCGTTACGGAC
+>>AAC75946 cds chromosome:ASM584v2:Chromosome:3053515:3054840:-1 gene:b2908 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:pepP description:proline aminopeptidase P II
+ATGAGTGAGATATCCCGGCAAGAGTTTCAGCGTCG
+>>AAC75959 cds chromosome:ASM584v2:Chromosome:3067340:3068080:-1 gene:b2922 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:yggE description:oxidative stress defense protein
+GTGAAGTTCAAAGTTATCGCCCTGGCGGCATTAAT
+>>AAC75975 cds chromosome:ASM584v2:Chromosome:3083935:3085911:-1 gene:b2938 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:speA description:biosynthetic arginine decarboxylase, PLP-binding
+ATGTCTGACGACATGTCTATGGGTTTGCCTTCGTC
+>>AAC75991 cds chromosome:ASM584v2:Chromosome:3096681:3097274:1 gene:b2954 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:rdgB description:dITP/XTP pyrophosphatase
+ATGCAAAAAGTTGTCCTCGCAACCGGCAATGTCGG
+>>AAC76001 cds chromosome:ASM584v2:Chromosome:3105714:3106970:1 gene:b2964 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:nupG description:nucleoside transporter
+ATGAATCTTAAGCTGCAGCTGAAAATCCTCTCTTT
+>>AAC76030 cds chromosome:ASM584v2:Chromosome:3141286:3142989:-1 gene:b2994 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:hybC description:hydrogenase 2, large subunit
+ATGAGCCAGAGAATTACTATTGATCCGGTAACCCG
+>>AAC76042 cds chromosome:ASM584v2:Chromosome:3151250:3151984:-1 gene:b3006 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:exbB description:membrane spanning protein in TonB-ExbB-ExbD complex
+GTGGGTAATAATTTAATGCAGACGGACCTTTCCGT
+>>AAC76048 cds chromosome:ASM584v2:Chromosome:3156623:3157450:1 gene:b3012 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:dkgA description:2,5-diketo-D-gluconate reductase A
+ATGGCTAATCCAACCGTTATTAAGCTACAGGATGG
+>>AAC76054 cds chromosome:ASM584v2:Chromosome:3162744:3163481:-1 gene:b3018 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:plsC description:1-acyl-sn-glycerol-3-phosphate acyltransferase
+ATGCTATATATCTTTCGTCTTATTATTACCGTGAT
+>>AAC76060 cds chromosome:ASM584v2:Chromosome:3169284:3169676:-1 gene:b3024 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:ygiW description:hydrogen peroxide and cadmium resistance periplasmic protein; stress-induced OB-fold protein
+ATGAAAAAATTCGCAGCAGTAATCGCAGTAATGGC
+>>AAC76073 cds chromosome:ASM584v2:Chromosome:3179744:3180415:1 gene:b3037 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:ygiB description:DUF1190 family protein
+ATGAAACGGACAAAATCCATACGCCACGCATCGTT
+>>AAC76074 cds chromosome:ASM584v2:Chromosome:3180421:3181581:1 gene:b3038 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:ygiC description:ATP-Grasp family ATPase
+ATGGAAAGAGTCAGTATTACCGAGCGCCCGGACTG
+>>AAC76089 cds chromosome:ASM584v2:Chromosome:3196801:3199641:-1 gene:b3053 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:glnE description:fused deadenylyltransferase/adenylyltransferase for glutamine synthetase
+ATGAAGCCGCTCTCTTCACCGTTACAGCAGTACTG
+>>AAC76093 cds chromosome:ASM584v2:Chromosome:3203310:3204131:-1 gene:b3057 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:bacA description:undecaprenyl pyrophosphate phosphatase
+ATGAGCGATATGCACTCGCTGCTGATAGCGGCAAT
+>>AAC76101 cds chromosome:ASM584v2:Chromosome:3210781:3210996:1 gene:b3065 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:rpsU description:30S ribosomal subunit protein S21
+ATGCCGGTAATTAAAGTACGTGAAAACGAGCCGTT
+>>AAC76103 cds chromosome:ASM584v2:Chromosome:3213047:3214888:1 gene:b3067 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:rpoD description:RNA polymerase, sigma 70 (sigma D) factor
+ATGGAGCAAAACCCGCAGTCACAGCTGAAACTTCT
+>>AAC76105 cds chromosome:ASM584v2:Chromosome:3215727:3216491:-1 gene:b3070 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:yqjH description:putative siderophore interacting protein
+ATGAATAACACCCCCCGCTACCCGCAGCGCGTTCG
+>>AAC76107 cds chromosome:ASM584v2:Chromosome:3217556:3219076:-1 gene:b3072 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:aer description:fused signal transducer for aerotaxis sensory component/methyl accepting chemotaxis component
+ATGTCTTCTCATCCGTATGTCACCCAGCAAAATAC
+>>AAC76116 cds chromosome:ASM584v2:Chromosome:3231665:3233683:1 gene:b3081 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:fadH description:2,4-dienoyl-CoA reductase, NADH and FMN-linked
+ATGAGCTACCCGTCGCTGTTCGCCCCGCTGGATTT
+>>AAC76124 cds chromosome:ASM584v2:Chromosome:3239944:3241188:1 gene:b3089 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:sstT description:sodium:serine/threonine symporter
+ATGACTACGCAACGTTCACCGGGGCTATTCCGGCG
+>>AAC76138 cds chromosome:ASM584v2:Chromosome:3252304:3252669:1 gene:b3103 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:yhaH description:DUF805 family inner membrane protein
+ATGGACTGGTATCTGAAAGTACTAAAAAATTATGT
+>>AAC76159 cds chromosome:ASM584v2:Chromosome:3271867:3272751:-1 gene:b3125 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:garR description:tartronate semialdehyde reductase
+ATGAAAGTTGGTTTTATTGGCCTGGGGATTATGGG
+>>AAC76196 cds chromosome:ASM584v2:Chromosome:3305971:3307860:-1 gene:b3162 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:deaD description:ATP-dependent RNA helicase
+ATGGCTGAATTCGAAACCACTTTTGCAGATCTGGG
+>>AAC76208 cds chromosome:ASM584v2:Chromosome:3322733:3324070:-1 gene:b3176 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:glmM description:phosphoglucosamine mutase
+ATGAGTAATCGTAAATATTTCGGTACCGATGGGAT
+>>AAC76213 cds chromosome:ASM584v2:Chromosome:3328239:3328715:-1 gene:b3181 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:greA description:transcript cleavage factor
+ATGCAAGCTATTCCGATGACCTTACGCGGCGCTGA
+>>AAC76221 cds chromosome:ASM584v2:Chromosome:3335235:3336494:-1 gene:b3189 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:murA description:UDP-N-acetylglucosamine 1-carboxyvinyltransferase
+ATGGATAAATTTCGTGTTCAGGGGCCAACGAAGCT
+>>AAC76230 cds chromosome:ASM584v2:Chromosome:3342273:3342839:1 gene:b3198 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:kdsC description:3-deoxy-D-manno-octulosonate 8-phosphate phosphatase
+ATGAGCAAAGCAGGTGCGTCGCTTGCGACCTGTTA
+>>AAC76233 cds chromosome:ASM584v2:Chromosome:3343944:3344669:1 gene:b3201 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:lptB description:lipopolysaccharide export ABC transporter ATPase
+ATGGCAACATTAACTGCAAAGAACCTTGCAAAAGC
+>>AAC76234 cds chromosome:ASM584v2:Chromosome:3344717:3346150:1 gene:b3202 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:rpoN description:RNA polymerase, sigma 54 (sigma N) factor
+ATGAAGCAAGGTTTGCAACTCAGGCTTAGCCAACA
+>>AAC76240 cds chromosome:ASM584v2:Chromosome:3349081:3349809:-1 gene:b3208 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:mtgA description:biosynthetic peptidoglycan transglycosylase
+ATGAGTAAAAGCCGCTTAACGGTGTTTAGTTTCGT
+>>AAC76261 cds chromosome:ASM584v2:Chromosome:3376782:3377420:-1 gene:b3229 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:sspA description:stringent starvation protein A, phage P1 late gene activator, RNAP-associated acid-resistance protein, inactive glutathione S-transferase homolog
+ATGGCTGTCGCTGCCAACAAACGTTCGGTAATGAC
+>>AAC76265 cds chromosome:ASM584v2:Chromosome:3380191:3380589:1 gene:b3233 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:yhcB description:DUF1043 family inner membrane-anchored protein
+ATGACCTGGGAATATGCGCTAATTGGGTTAGTCGT
+>>AAC76272 cds chromosome:ASM584v2:Chromosome:3386221:3388188:-1 gene:b3240 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:aaeB description:p-hydroxybenzoic acid efflux system component
+ATGGGTATTTTCTCCATTGCTAACCAACATATTCG
+>>AAC76287 cds chromosome:ASM584v2:Chromosome:3405436:3405906:1 gene:b3255 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:accB description:acetyl CoA carboxylase, BCCP subunit
+ATGGATATTCGTAAGATTAAAAAACTGATCGAGCT
+>>AAC76299 cds chromosome:ASM584v2:Chromosome:3418390:3418611:1 gene:b3267 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:yhdV description:putative outer membrane protein
+ATGAAAAGATTAATTCCTGTGGCATTGCTCACCGC
+>>AAC76316 cds chromosome:ASM584v2:Chromosome:3438024:3438434:1 gene:b3291 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:mscL description:mechanosensitive channel protein, high conductance
+ATGAGCATTATTAAAGAATTTCGCGAATTTGCGAT
+>>AAC76320 cds chromosome:ASM584v2:Chromosome:3440040:3441029:-1 gene:b3295 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:rpoA description:RNA polymerase, alpha subunit
+ATGCAGGGTTCTGTGACAGAGTTTCTAAAACCGCG
+>>AAC76329 cds chromosome:ASM584v2:Chromosome:3445244:3445597:-1 gene:b3304 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:rplR description:50S ribosomal subunit protein L18
+ATGGATAAGAAATCTGCTCGTATCCGTCGTGCGAC
+>>AAC76342 cds chromosome:ASM584v2:Chromosome:3450543:3451364:-1 gene:b3317 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:rplB description:50S ribosomal subunit protein L2
+ATGGCAGTTGTTAAATGTAAACCGACATCTCCGGG
+>>AAC76346 cds chromosome:ASM584v2:Chromosome:3452959:3453270:-1 gene:b3321 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:rpsJ description:30S ribosomal subunit protein S10
+ATGCAGAACCAAAGAATCCGTATCCGCCTGAAAGC
+>>AAC76366 cds chromosome:ASM584v2:Chromosome:3473542:3474081:-1 gene:b3341 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:rpsG description:30S ribosomal subunit protein S7
+ATGCCACGTCGTCGCGTCATTGGTCAGCGTAAAAT
+>>ABD18701 cds chromosome:ASM584v2:Chromosome:3478592:3478792:-1 gene:b4551 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:yheV description:DUF2387 family putative metal-binding protein
+ATGGCAATCCGAAAACGTTTTATTGCGGGCGCAAA
+>>AAC76376 cds chromosome:ASM584v2:Chromosome:3480607:3481161:-1 gene:b3351 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:kefG description:potassium-efflux system ancillary protein for KefB, glutathione-regulated
+ATGATGTCTCAGCCAGCGAAAGTTTTGCTGCTGTA
+>>AAC76414 cds chromosome:ASM584v2:Chromosome:3517398:3518486:-1 gene:b3389 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:aroB description:3-dehydroquinate synthase
+ATGGAGAGGATTGTCGTTACTCTCGGGGAACGTAG
+>>AAC76424 cds chromosome:ASM584v2:Chromosome:3528669:3529337:1 gene:b3399 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:yrfG description:GMP/IMP nucleotidase
+ATGCATATCAACATTGCCTGGCAGGACGTAGATAC
+>>AAC76426 cds chromosome:ASM584v2:Chromosome:3529774:3530652:1 gene:b3401 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:hslO description:heat shock protein Hsp33
+ATGCCGCAACATGACCAATTACATCGCTATCTGTT
+>>AAC76431 cds chromosome:ASM584v2:Chromosome:3536812:3537288:1 gene:b3406 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:greB description:transcript cleavage factor
+ATGAAAACGCCCCTGGTTACCCGGGAAGGGTATGA
+>>AAC76446 cds chromosome:ASM584v2:Chromosome:3556853:3558079:-1 gene:b3421 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:rtcB description:RNA-splicing ligase
+ATGAATTACGAATTACTGACCACTGAAAATGCCCC
+>>AAC76457 cds chromosome:ASM584v2:Chromosome:3571316:3573502:-1 gene:b3432 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:glgB description:1,4-alpha-glucan branching enzyme
+ATGTCCGATCGTATCGATAGAGACGTGATTAACGC
+>>AAC76474 cds chromosome:ASM584v2:Chromosome:3587370:3588113:-1 gene:b3449 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:ugpQ description:glycerophosphodiester phosphodiesterase, cytosolic
+ATGAGTAACTGGCCTTATCCCCGCATCGTCGCTCA
+>>AAT48185 cds chromosome:ASM584v2:Chromosome:3598555:3599658:-1 gene:b3460 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:livJ description:branched-chain amino acid ABC transporter periplasmic binding protein
+ATGAACATAAAGGGTAAAGCGTTACTGGCAGGATG
+>>AAC76488 cds chromosome:ASM584v2:Chromosome:3602079:3602747:-1 gene:b3463 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:ftsE description:cell division ATP-binding protein
+ATGATTCGCTTTGAACATGTCAGCAAGGCTTATCT
+>>AAC76496 cds chromosome:ASM584v2:Chromosome:3609217:3609882:1 gene:b3471 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:yhhQ description:DUF165 family inner membrane protein
+ATGAACGTTTTCTCGCAAACTCAACGCTATAAGGC
+>>AAC76585 cds chromosome:ASM584v2:Chromosome:3725887:3726882:1 gene:b3561 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:wecH description:O-acetyltransferase for enterobacterial common antigen (ECA)
+ATGCAGCCCAAAATTTACTGGATTGATAACCTGCG
+>>AAC76597 cds chromosome:ASM584v2:Chromosome:3741109:3741582:-1 gene:b3573 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:ysaA description:putative hydrogenase, 4Fe-4S ferredoxin-type component
+ATGAACCGGTTTATTATTGCGGATGCGACGAAATG
+>>AAC76623 cds chromosome:ASM584v2:Chromosome:3772281:3774194:1 gene:b3599 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:mtlA description:mannitol-specific PTS enzyme: IIA, IIB and IIC components
+ATGTCATCCGATATTAAGATCAAAGTGCAAAGCTT
+>>AAC76628 cds chromosome:ASM584v2:Chromosome:3779054:3779830:1 gene:b3604 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:lldR description:dual role activator/repressor for lldPRD operon
+ATGATTGTTTTACCCAGACGCCTGTCAGACGAGGT
+>>AAC76661 cds chromosome:ASM584v2:Chromosome:3811438:3811674:-1 gene:b3637 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:rpmB description:50S ribosomal subunit protein L28
+ATGTCCCGAGTCTGCCAAGTTACTGGCAAGCGTCC
+>>AAC76664 cds chromosome:ASM584v2:Chromosome:3813932:3814387:1 gene:b3640 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:dut description:deoxyuridinetriphosphatase
+ATGAAAAAAATCGACGTTAAGATTCTGGACCCGCG
+>>AAC76685 cds chromosome:ASM584v2:Chromosome:3840549:3841739:-1 gene:b3662 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:nepI description:putative transporter
+ATGAGTGAATTTATTGCCGAAAACCGCGGCGCGGA
+>>AAC76692 cds chromosome:ASM584v2:Chromosome:3850136:3850726:-1 gene:b3669 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:uhpA description:response regulator in two-component regulatory system wtih UhpB
+ATGATCACCGTTGCCCTTATAGACGATCACCTCAT
+>>AAC76695 cds chromosome:ASM584v2:Chromosome:3852890:3852988:-1 gene:b3672 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:ivbL description:ilvB operon leader peptide
+ATGACTACTTCCATGCTCAACGCAAAACTACTACC
+>>AAC76711 cds chromosome:ASM584v2:Chromosome:3867728:3868060:1 gene:b3688 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:yidQ description:DUF1375 family outer membrane protein
+ATGATAAGAAATGTGTTGTTAGCGTTCATGATATG
+>>AAC76724 cds chromosome:ASM584v2:Chromosome:3881221:3882321:-1 gene:b3701 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:dnaN description:DNA polymerase III, beta subunit
+ATGAAATTTACCGTAGAACGTGAGCATTTATTAAA
+>>AAC76725 cds chromosome:ASM584v2:Chromosome:3882326:3883729:-1 gene:b3702 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:dnaA description:chromosomal replication initiator protein DnaA, DNA-binding transcriptional dual regulator
+GTGTCACTTTCGCTTTGGCAGCAGTGTCTTGCCCG
+>>AAC76728 cds chromosome:ASM584v2:Chromosome:3885076:3886722:1 gene:b3705 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:yidC description:membrane protein insertase
+ATGGATTCGCAACGCAATCTTTTAGTCATCGCTTT
+>>AAC76732 cds chromosome:ASM584v2:Chromosome:3890236:3891483:1 gene:b3709 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:tnaB description:tryptophan transporter of low affinity
+ATGACTGATCAAGCTGAAAAAAAGCACTCTGCATT
+>>AAC76748 cds chromosome:ASM584v2:Chromosome:3907593:3908366:-1 gene:b3725 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:pstB description:phosphate ABC transporter ATPase
+ATGAGTATGGTTGAAACTGCCCCGAGTAAAATTCA
+>>AAC76751 cds chromosome:ASM584v2:Chromosome:3910485:3911525:-1 gene:b3728 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:pstS description:phosphate ABC transporter periplasmic binding protein
+ATGAAAGTTATGCGTACCACCGTCGCAACTGTTGT
+>>AAC76760 cds chromosome:ASM584v2:Chromosome:3920950:3921189:-1 gene:b3737 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:atpE description:F0 sector of membrane-bound ATP synthase, subunit c
+ATGGAAAACCTGAATATGGATCTGCTGTACATGGC
+>>AAC76775 cds chromosome:ASM584v2:Chromosome:3937294:3938223:1 gene:b3752 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:rbsK description:ribokinase
+ATGCAAAACGCAGGCAGCCTCGTTGTTCTTGGCAG
+>>AAC77487 cds chromosome:ASM584v2:Chromosome:3950322:3950420:1 gene:b3766 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:ilvL description:ilvG operon leader peptide
+ATGACAGCCCTTCTACGAGTGATTAGCCTGGTCGT
+>>AAT48208 cds chromosome:ASM584v2:Chromosome:3953478:3955328:1 gene:b3771 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:ilvD description:dihydroxyacid dehydratase
+ATGCCTAAGTACCGTTCCGCCACCACCACTCATGG
+>>AAC76788 cds chromosome:ASM584v2:Chromosome:3966417:3967676:1 gene:b3783 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:rho description:transcription termination factor
+ATGAATCTTACCGAATTAAAGAATACGCCGGTTTC
+>>AAT48227 cds chromosome:ASM584v2:Chromosome:4018855:4019610:1 gene:b3833 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:ubiE description:bifunctional 2-octaprenyl-6-methoxy-1,4-benzoquinone methylase/ S-adenosylmethionine:2-DMK methyltransferase
+ATGGTGGATAAGTCACAAGAAACGACGCACTTTGG
+>>AAC76842 cds chromosome:ASM584v2:Chromosome:4022736:4023512:1 gene:b3839 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:tatC description:TatABCE protein translocation system subunit
+ATGTCTGTAGAAGATACTCAACCGCTTATCACGCA
+>>AAC76847 cds chromosome:ASM584v2:Chromosome:4026527:4027228:1 gene:b3844 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:fre description:NAD(P)H-flavin reductase
+ATGACAACCTTAAGCTGTAAAGTGACCTCGGTAGA
+>>AAC76851 cds chromosome:ASM584v2:Chromosome:4032492:4033106:1 gene:b3848 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:yigZ description:UPF0029 family protein
+ATGGAAAGCTGGTTAATTCCTGCGGCACCGGTCAC
+>>AAC76858 cds chromosome:ASM584v2:Chromosome:4043418:4044044:1 gene:b3860 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:dsbA description:periplasmic protein disulfide isomerase I
+ATGAAAAAGATTTGGCTGGCGCTGGCTGGTTTAGT
+>>AAD13456 cds chromosome:ASM584v2:Chromosome:4082772:4085822:-1 gene:b3894 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:fdoG description:formate dehydrogenase-O, large subunit
+ATGCAGGTCAGCAGAAGGCAGTTCTTTAAGATCTG
+>>AAC76894 cds chromosome:ASM584v2:Chromosome:4104972:4105670:-1 gene:b3912 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:cpxR description:response regulator in two-component regulatory system with CpxA
+ATGAATAAAATCCTGTTAGTTGATGATGACCGAGA
+>>AAC76905 cds chromosome:ASM584v2:Chromosome:4113293:4113721:1 gene:b3923 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:uspD description:stress-induced protein
+ATGGCTTATAAACACATTGGCGTGGCAATTTCCGG
+>>AAC76906 cds chromosome:ASM584v2:Chromosome:4113726:4114472:-1 gene:b3924 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:fpr description:ferredoxin-NADP reductase; flavodoxin reductase
+ATGGCTGATTGGGTAACAGGCAAAGTCACTAAAGT
+>>AAC76908 cds chromosome:ASM584v2:Chromosome:4115714:4117222:-1 gene:b3926 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:glpK description:glycerol kinase
+ATGACTGAAAAAAAATATATCGTTGCGCTCGACCA
+>>AAC76909 cds chromosome:ASM584v2:Chromosome:4117245:4118090:-1 gene:b3927 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:glpF description:glycerol facilitator
+ATGAGTCAAACATCAACCTTGAAAGGCCAGTGCAT
+>>AAC76913 cds chromosome:ASM584v2:Chromosome:4120416:4121747:-1 gene:b3931 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:hslU description:molecular chaperone and ATPase component of HslUV protease
+ATGTCTGAAATGACCCCACGCGAAATCGTCAGCGA
+>>AAC76922 cds chromosome:ASM584v2:Chromosome:4129835:4132267:1 gene:b3940 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:metL description:Bifunctional aspartokinase/homoserine dehydrogenase 2
+ATGAGTGTGATTGCGCAGGCAGGGGCGAAAGGTCG
+>>AAC76923 cds chromosome:ASM584v2:Chromosome:4132616:4133506:1 gene:b3941 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:metF description:5,10-methylenetetrahydrofolate reductase
+ATGAGCTTTTTTCACGCCAGCCAGCGGGATGCCCT
+>>AAC76924 cds chromosome:ASM584v2:Chromosome:4133835:4136015:1 gene:b3942 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:katG description:catalase-peroxidase HPI, heme b-containing
+ATGAGCACGTCAGACGATATCCATAACACCACAGC
+>>AAC76927 cds chromosome:ASM584v2:Chromosome:4137932:4139035:-1 gene:b3945 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:gldA description:glycerol dehydrogenase, NAD+ dependent; 1,2-propanediol:NAD+ oxidoreductase
+ATGGACCGCATTATTCAATCACCGGGTAAATACAT
+>>AAC76948 cds chromosome:ASM584v2:Chromosome:4163639:4165483:1 gene:b3966 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:btuB description:vitamin B12/cobalamin outer membrane transporter
+ATGATTAAAAAAGCTTCGCTGCTGACGGCGTGTTC
+>>AAC76952 cds chromosome:ASM584v2:Chromosome:4174076:4175026:-1 gene:b3974 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:coaA description:pantothenate kinase
+ATGAGTATAAAAGAGCAAACGTTAATGACGCCTTA
+>>AAC76960 cds chromosome:ASM584v2:Chromosome:4180560:4180925:1 gene:b3986 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:rplL description:50S ribosomal subunit protein L7/L12
+ATGTCTATCACTAAAGATCAAATCATTGAAGCAGT
+>>AAC76961 cds chromosome:ASM584v2:Chromosome:4181245:4185273:1 gene:b3987 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:rpoB description:RNA polymerase, beta subunit
+ATGGTTTACTCCTATACCGAGAAAAAACGTATTCG
+>>AAC76969 cds chromosome:ASM584v2:Chromosome:4196332:4196808:-1 gene:b3995 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:rsd description:stationary phase protein, binds sigma 70 RNA polymerase subunit
+ATGCTTAACCAGCTCGATAACCTGACGGAGCGCGT
+>>AAC76990 cds chromosome:ASM584v2:Chromosome:4227731:4229362:1 gene:b4020 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:yjbB description:putative Na+/Pi-cotransporter
+GTGTTAACGCTGCTTCACCTGCTTTCTGCCGTCGC
+>>AAC77006 cds chromosome:ASM584v2:Chromosome:4247971:4249311:1 gene:b4036 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:lamB description:maltose outer membrane porin (maltoporin)
+ATGATGATTACTCTGCGCAAACTTCCTCTGGCGGT
+>>AAC77012 cds chromosome:ASM584v2:Chromosome:4256637:4257005:1 gene:b4042 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:dgkA description:diacylglycerol kinase
+ATGGCCAATAATACCACTGGATTCACCCGAATTAT
+>>AAC77013 cds chromosome:ASM584v2:Chromosome:4257115:4257723:1 gene:b4043 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:lexA description:transcriptional repressor of SOS regulon
+ATGAAAGCGTTAACGGCCAGGCAACAAGAGGTGTT
+>>AAC77019 cds chromosome:ASM584v2:Chromosome:4261669:4262706:1 gene:b4049 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:dusA description:tRNA-dihydrouridine synthase A
+ATGCACGGTAATTCTGAAATGCAAAAAATCAACCA
+>>AAC77025 cds chromosome:ASM584v2:Chromosome:4269414:4270127:1 gene:b4055 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:aphA description:acid phosphatase/phosphotransferase, class B, non-specific
+ATGCGCAAGATCACACAGGCAATCAGTGCCGTTTG
+>>AAC77027 cds chromosome:ASM584v2:Chromosome:4270658:4271014:1 gene:b4057 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:yjbR description:DUF419 family protein
+ATGACCATTTCGGAGTTGCTACAATATTGCATGGC
+>>AAC77035 cds chromosome:ASM584v2:Chromosome:4279980:4281629:1 gene:b4065 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:yjcE description:putative cation/proton antiporter
+ATGGAAATCTTCTTCACCATACTGATAATGACCCT
+>>AAC77040 cds chromosome:ASM584v2:Chromosome:4287764:4289200:1 gene:b4070 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:nrfA description:nitrite reductase, formate-dependent, cytochrome
+ATGACAAGGATAAAAATAAACGCACGCCGTATCTT
+>>AAD13460 cds chromosome:ASM584v2:Chromosome:4294481:4295794:1 gene:b4077 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:gltP description:glutamate/aspartate:proton symporter
+ATGAAAAATATAAAATTCAGCCTGGCCTGGCAGAT
+>>AAC77071 cds chromosome:ASM584v2:Chromosome:4329360:4330238:1 gene:b4110 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:yjcZ description:YjcZ family protein; yhjH motility defect suppressor
+TTGACCAAGACGTTACTTGACGGCCCCGGTCGCGT
+>>AAC77098 cds chromosome:ASM584v2:Chromosome:4365472:4366773:-1 gene:b4138 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:dcuA description:C4-dicarboxylate antiporter
+ATGCTAGTTGTAGAACTCATCATAGTTTTGCTGGC
+>>AAC77103 cds chromosome:ASM584v2:Chromosome:4371025:4372671:1 gene:b4143 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:groL description:Cpn60 chaperonin GroEL, large subunit of GroESL
+ATGGCAGCTAAAGACGTAAAATTCGGTAACGACGC
+>>AAC77104 cds chromosome:ASM584v2:Chromosome:4372809:4373162:1 gene:b4144 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:yjeI description:DUF4156 family lipoprotein
+ATGCACGTAAAATACTTAGCAGGGATTGTCGGTGC
+>>AAC77107 cds chromosome:ASM584v2:Chromosome:4375699:4376265:1 gene:b4147 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:efp description:polyproline-specific translation elongation factor EF-P
+ATGGCAACGTACTATAGCAACGATTTTCGTGCTGG
+>>AAC77114 cds chromosome:ASM584v2:Chromosome:4380510:4382318:-1 gene:b4154 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:frdA description:anaerobic fumarate reductase catalytic and NAD/flavoprotein subunit
+GTGCAAACCTTTCAAGCCGATCTTGCCATTGTAGG
+>>AAC77129 cds chromosome:ASM584v2:Chromosome:4400288:4400596:1 gene:b4172 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:hfq description:global sRNA chaperone; HF-I, host factor for RNA phage Q beta replication
+ATGGCTAAGGGGCAATCTTTACAAGATCCGTTCCT
+>>AAC77137 cds chromosome:ASM584v2:Chromosome:4409275:4410006:1 gene:b4180 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:rlmB description:23S rRNA mG2251 2'-O-ribose methyltransferase, SAM-dependent
+ATGAGCGAAATGATTTACGGCATCCACGCAGTGCA
+>>AAC77139 cds chromosome:ASM584v2:Chromosome:4410553:4411251:1 gene:b4182 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:yjfJ description:PspA/IM30 family protein
+ATGGGAATTTTAAAAAGTTTATTTACGCTGGGGAA
+>>AAC77163 cds chromosome:ASM584v2:Chromosome:4428079:4428717:-1 gene:b4206 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:ytfB description:OapA family protein
+ATGCCCGGGCGCTTTGAACTAAAACCAACCCTGGA
+>>AAC77165 cds chromosome:ASM584v2:Chromosome:4429864:4431276:1 gene:b4208 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:cycA description:D-alanine/D-serine/glycine transporter
+ATGGTAGATCAGGTAAAAGTCGTTGCCGATGATCA
+>>AAC77171 cds chromosome:ASM584v2:Chromosome:4436755:4437495:1 gene:b4214 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:cysQ description:3'(2'),5'-bisphosphate nucleotidase
+ATGTTAGATCAAGTATGCCAGCTTGCACGGAATGC
+>>AAC77173 cds chromosome:ASM584v2:Chromosome:4438708:4439262:-1 gene:b4216 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:ytfJ description:putative transcriptional regulator
+ATGACCCTACGCAAGATTCTGGCACTCACCTGCCT
+>>AAC77174 cds chromosome:ASM584v2:Chromosome:4439587:4439793:1 gene:b4217 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:ytfK description:DUF1107 family protein
+ATGAAAATTTTCCAACGGTACAACCCACTTCAGGT
+>>AAC77189 cds chromosome:ASM584v2:Chromosome:4454611:4455609:-1 gene:b4232 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:fbp description:fructose-1,6-bisphosphatase I
+ATGAAAACGTTAGGTGAATTTATTGTCGAAAAGCA
+>>AAC77198 cds chromosome:ASM584v2:Chromosome:4466299:4467246:-1 gene:b4241 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:treR description:trehalose 6-phosphate-inducible trehalose regulon transcriptional repressor
+ATGCAAAATCGGCTGACCATCAAAGATATCGCGCG
+>>AAC77217 cds chromosome:ASM584v2:Chromosome:4484440:4485951:-1 gene:b4260 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:pepA description:multifunctional aminopeptidase A: a cyteinylglycinase, transcription regulator and site-specific recombination factor
+ATGGAGTTTAGTGTAAAAAGCGGTAGCCCGGAGAA
+>>AAC77220 cds chromosome:ASM584v2:Chromosome:4488561:4490063:-1 gene:b4263 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:yjgR description:DUF853 family protein with NTPase fold
+ATGAGTGAACCCCTGTTAATTGCCCGCACGCCGGA
+>>AAC77251 cds chromosome:ASM584v2:Chromosome:4519338:4520324:-1 gene:b4295 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:yjhU description:putative DNA-binding transcriptional regulator; KpLE2 phage-like element
+GTGGATAGAGATCAAACAAACAGCAGCCTGTTCAA
+>>AAC77269 cds chromosome:ASM584v2:Chromosome:4542037:4542633:1 gene:b4313 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:fimE description:tyrosine recombinase/inversion of on/off regulator of fimA
+GTGAGTAAACGTCGTTATCTTACCGGTAAAGAAGT
+>>AAC77270 cds chromosome:ASM584v2:Chromosome:4543115:4543663:1 gene:b4314 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:fimA description:major type 1 subunit fimbrin (pilin)
+ATGAAAATTAAAACTCTGGCAATCGTTGTTCTGTC
+>>AAC77280 cds chromosome:ASM584v2:Chromosome:4554576:4555349:1 gene:b4324 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:uxuR description:fructuronate-inducible hexuronate regulon transcriptional repressor; autorepressor
+ATGAAATCTGCCACCTCTGCGCAAAGACCTTACCA
+>>AAC77284 cds chromosome:ASM584v2:Chromosome:4558354:4559526:-1 gene:b4328 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:iadA description:isoaspartyl dipeptidase
+ATGATTGATTATACCGCAGCCGGTTTTACCCTGCT
+>>AAC77310 cds chromosome:ASM584v2:Chromosome:4589129:4591279:-1 gene:b4354 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:yjiY description:putative transporter
+ATGGATACTAAAAAGATATTCAAGCACATACCCTG
+>>AAC77320 cds chromosome:ASM584v2:Chromosome:4602088:4602858:-1 gene:b4364 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:yjjP description:DUF1212 family inner membrane protein
+ATGCAAACTGAGCAACAGCGAGCCGTAACACGGCT
+>>AAC77327 cds chromosome:ASM584v2:Chromosome:4608646:4609323:1 gene:b4374 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:yjjG description:dUMP phosphatase
+ATGAAGTGGGACTGGATTTTCTTTGATGCCGATGA
+>>ABD18720 cds chromosome:ASM584v2:Chromosome:4612128:4612289:1 gene:b4568 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:ytjA description:uncharacterized protein
+ATGTTTCGTTGGGGCATCATATTTCTGGTTATCGC
+>>AAC77342 cds chromosome:ASM584v2:Chromosome:4625912:4627294:1 gene:b4389 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:radA description:DNA repair protein
+GTGGCAAAAGCTCCAAAACGCGCCTTTGTTTGTAA
